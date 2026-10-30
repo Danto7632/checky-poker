@@ -51,3 +51,9 @@ tmp/
 
 # OS
 .DS_Store
+
+# BATHOS (local AI workflow tooling)
+.claude/
+.agent-team/
+assets/
+modules/

@@ -1,4 +1,12 @@
-# AIPOT
+# Bluffy Poker (WIP)
+
+> **Work in progress.** AIPOT is being rebuilt as **Bluffy Poker** — free Texas Hold'em you play with friends right in the browser, peer-to-peer with no server and no signup. Bring your own AI key to invite LLM bots to the table.
+>
+> **개발 중입니다.** AIPOT을 서버·가입 없이 브라우저에서 친구들과 바로 하는 P2P 무료 포커 **Bluffy Poker**로 전환하고 있습니다. 아래는 기존 AIPOT(서버 버전) 설명입니다.
+
+---
+
+# AIPOT (기존 서버 버전)
 
 AI BOT과 함께 텍사스 홀덤을 플레이하고, 경기 종료 후 액션 단위 복기까지 수행하는 AI 맞춤형 포커 트레이닝 서비스입니다.
 
