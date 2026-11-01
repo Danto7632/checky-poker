@@ -1,36 +1,9 @@
 import { createBrowserRouter } from "react-router";
-import { Root } from "./components/Root";
-import { AuthScreen } from "./components/AuthScreen";
-import { LoadingScreen } from "./components/LoadingScreen";
-import { Lobby } from "./components/Lobby";
-import { PlayTable } from "./components/PlayTable";
-import { HandReview } from "./components/HandReview";
-import { Store } from "./components/Store";
-import { getCurrentPreferredLanguage } from "./auth";
-import { translate } from "./i18n";
 
-export const router = createBrowserRouter([
-  {
-    path: "/",
-    Component: Root,
-    children: [
-      { index: true, Component: AuthScreen },
-      { path: "loading", Component: LoadingScreen },
-      { path: "lobby", Component: Lobby },
-      { path: "play", Component: PlayTable },
-      { path: "review", Component: HandReview },
-      { path: "store", Component: Store },
-      {
-        path: "*",
-        Component: () => {
-          const language = getCurrentPreferredLanguage();
-          return (
-            <div className="text-white p-10 font-bold text-2xl">
-              {translate(language, "404 - Not Found")}
-            </div>
-          );
-        },
-      },
-    ],
-  },
-]);
+// T5.0 placeholder: one "coming soon" screen so the app builds while the
+// dormant screens live under ./legacy. Handed over to Andrew on R0 day 1.
+function ComingSoon() {
+  return <div className="text-white p-10 font-bold text-2xl">Coming soon</div>;
+}
+
+export const router = createBrowserRouter([{ path: "*", Component: ComingSoon }]);

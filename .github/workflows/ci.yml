@@ -1,0 +1,82 @@
+# T5.0 CI (story 0-0 AC-9). Lead-owned. Steps run in this order:
+# npm ci -> typecheck -> lint -> tooling tests -> test -> build -> scan-dist (when present) -> check-owners
+# -> legacy unchanged (since tag w5-start) -> change attribution (BATHOS-Role trailer, D-L9).
+name: ci
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # Full history and tags: the legacy and attribution steps compare against tag w5-start.
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+
+      - name: Install (npm ci)
+        run: npm ci
+
+      - name: Typecheck
+        run: npm run typecheck
+
+      - name: Lint
+        run: npm run lint
+
+      - name: Tooling tests (lint rules, owners, contract-code extraction)
+        run: node --test scripts/*.test.mjs
+
+      - name: Test
+        run: npm test
+
+      - name: Build
+        run: npm run build
+
+      - name: Scan dist (AF-18)
+        # scan-dist.mjs is created by Andrew in R0; the lead removes this guard at the R0 integration.
+        run: |
+          if [ -f frontend/scripts/scan-dist.mjs ]; then
+            node frontend/scripts/scan-dist.mjs
+          else
+            echo "scan-dist: skipped (R0 pending)"
+          fi
+
+      - name: Check owners
+        run: npm run check:owners
+
+      - name: Legacy unchanged since w5-start
+        run: |
+          if git rev-parse -q --verify refs/tags/w5-start >/dev/null; then
+            changed="$(git diff --name-only w5-start -- frontend/src/app/legacy)"
+            if [ -n "$changed" ]; then
+              echo "frontend/src/app/legacy is read-only; changed since w5-start:"
+              echo "$changed"
+              exit 1
+            fi
+            echo "legacy: unchanged since w5-start"
+          else
+            echo "legacy: skipped (tag w5-start not found)"
+          fi
+
+      - name: Change attribution (BATHOS-Role trailer)
+        run: |
+          if git rev-parse -q --verify refs/tags/w5-start >/dev/null; then
+            node scripts/check-owners.mjs --attribution w5-start..HEAD
+          else
+            echo "attribution: skipped (tag w5-start not found)"
+          fi

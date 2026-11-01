@@ -1,0 +1,75 @@
+{
+  "Phillip": [
+    "packages/engine/src/**",
+    "packages/engine/test/**",
+    "frontend/src/net/**",
+    "frontend/src/host/**",
+    "frontend/src/session/**",
+    "frontend/src/storage/**",
+    "frontend/functions/**",
+    ".agent-team/08-impl-notes/backend.md"
+  ],
+  "Stephen": [
+    "packages/analysis/src/**",
+    "packages/analysis/test/**",
+    "frontend/src/ai/**",
+    "frontend/src/share/**",
+    ".agent-team/08-impl-notes/ml.md"
+  ],
+  "Andrew": [
+    "frontend/src/app/**",
+    "frontend/src/styles/**",
+    "frontend/src/main.tsx",
+    "frontend/public/**",
+    "frontend/index.html",
+    "frontend/app.html",
+    "frontend/404.html",
+    "frontend/ja/**",
+    "frontend/ko/**",
+    "frontend/scripts/**",
+    "frontend/package.json",
+    "package-lock.json",
+    "frontend/vite.config.ts",
+    "frontend/postcss.config.mjs",
+    "frontend/ATTRIBUTIONS.md",
+    "frontend/README.md",
+    "frontend/.env.example",
+    ".agent-team/08-impl-notes/frontend.md"
+  ],
+  "lead": [
+    "package.json",
+    "tsconfig.base.json",
+    "tsconfig.json",
+    "eslint.config.js",
+    "vitest.config.ts",
+    ".nvmrc",
+    ".github/**",
+    "scripts/**",
+    "packages/engine/package.json",
+    "packages/engine/tsconfig.json",
+    "packages/analysis/package.json",
+    "packages/analysis/tsconfig.json",
+    "frontend/tsconfig.json",
+    "frontend/src/config/**"
+  ],
+  "frozen": [
+    "backend/**",
+    "frontend/guidelines/**",
+    ".claude/**",
+    "assets/**",
+    "modules/**",
+    "docs/**",
+    "README.md",
+    "LICENSE",
+    ".gitignore",
+    ".agent-team/**",
+    "frontend/dist/**",
+    "e2e/**",
+    "spikes/**"
+  ],
+  "allowOverlap": [
+    [".agent-team/**", ".agent-team/08-impl-notes/backend.md"],
+    [".agent-team/**", ".agent-team/08-impl-notes/ml.md"],
+    [".agent-team/**", ".agent-team/08-impl-notes/frontend.md"]
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "name": "checky-poker",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "workspaces": [
+    "packages/*",
+    "frontend"
+  ],
+  "scripts": {
+    "typecheck": "tsc -b && tsc -p frontend",
+    "test": "vitest run",
+    "lint": "eslint .",
+    "build": "npm run build -w frontend",
+    "check:owners": "node scripts/check-owners.mjs"
+  },
+  "overrides": {
+    "vite": "6.4.5"
+  },
+  "devDependencies": {
+    "@types/react": "18.3.31",
+    "@types/react-dom": "18.3.7",
+    "eslint": "10.14.0",
+    "eslint-plugin-react-hooks": "7.1.1",
+    "fake-indexeddb": "6.2.7",
+    "happy-dom": "21.0.4",
+    "typescript": "6.0.3",
+    "typescript-eslint": "8.72.1",
+    "vitest": "5.0.5",
+    "yaml": "2.9.1"
+  }
+}

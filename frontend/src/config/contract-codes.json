@@ -1,0 +1,500 @@
+{
+  "contract_version": "1.0.4",
+  "errors": [
+    {
+      "id": "E-ACT-AMOUNT",
+      "owner": "Phillip",
+      "surface": "inline",
+      "retry": "user"
+    },
+    {
+      "id": "E-ACT-ILLEGAL",
+      "owner": "Phillip",
+      "surface": "inline",
+      "retry": "user"
+    },
+    {
+      "id": "E-ACT-NOT-YOUR-TURN",
+      "owner": "Phillip",
+      "surface": "inline",
+      "retry": "none"
+    },
+    {
+      "id": "E-ACT-STALE",
+      "owner": "Phillip",
+      "surface": "silent",
+      "retry": "none"
+    },
+    {
+      "id": "E-ACT-TIMEOUT",
+      "owner": "Phillip",
+      "surface": "silent",
+      "retry": "auto"
+    },
+    {
+      "id": "E-ANL-SLOW",
+      "owner": "Stephen",
+      "surface": "silent",
+      "retry": "none"
+    },
+    {
+      "id": "E-CHAT-BLOCKED",
+      "owner": "Phillip",
+      "surface": "inline",
+      "retry": "none"
+    },
+    {
+      "id": "E-CHAT-RATE",
+      "owner": "Phillip",
+      "surface": "inline",
+      "retry": "user"
+    },
+    {
+      "id": "E-CHAT-TOO-LONG",
+      "owner": "Phillip",
+      "surface": "inline",
+      "retry": "user"
+    },
+    {
+      "id": "E-COACH-FILTERED",
+      "owner": "Stephen",
+      "surface": "inline",
+      "retry": "none"
+    },
+    {
+      "id": "E-COACH-MOSTLY-FILTERED",
+      "owner": "Stephen",
+      "surface": "inline",
+      "retry": "user"
+    },
+    {
+      "id": "E-ENG-INVALID-INIT",
+      "owner": "Phillip",
+      "surface": "silent",
+      "retry": "none"
+    },
+    {
+      "id": "E-ENG-INVARIANT",
+      "owner": "Phillip",
+      "surface": "screen",
+      "retry": "none"
+    },
+    {
+      "id": "E-GATE-UNDERAGE",
+      "owner": "Andrew",
+      "surface": "screen",
+      "retry": "none"
+    },
+    {
+      "id": "E-JOIN-CODE-FORMAT",
+      "owner": "Phillip",
+      "surface": "inline",
+      "retry": "user"
+    },
+    {
+      "id": "E-JOIN-FULL",
+      "owner": "Phillip",
+      "surface": "screen",
+      "retry": "user"
+    },
+    {
+      "id": "E-JOIN-HOST-PROOF",
+      "owner": "Phillip",
+      "surface": "silent",
+      "retry": "auto"
+    },
+    {
+      "id": "E-JOIN-KICKED",
+      "owner": "Phillip",
+      "surface": "screen",
+      "retry": "none"
+    },
+    {
+      "id": "E-JOIN-LOCKED",
+      "owner": "Phillip",
+      "surface": "screen",
+      "retry": "user"
+    },
+    {
+      "id": "E-JOIN-OTHER-TAB",
+      "owner": "Phillip",
+      "surface": "screen",
+      "retry": "user"
+    },
+    {
+      "id": "E-JOIN-VERSION",
+      "owner": "Phillip",
+      "surface": "screen",
+      "retry": "user"
+    },
+    {
+      "id": "E-KEY-STORAGE",
+      "owner": "Stephen",
+      "surface": "inline",
+      "retry": "none"
+    },
+    {
+      "id": "E-LLM-AUTH",
+      "owner": "Stephen",
+      "surface": "inline",
+      "retry": "user"
+    },
+    {
+      "id": "E-LLM-CAP",
+      "owner": "Stephen",
+      "surface": "banner",
+      "retry": "user"
+    },
+    {
+      "id": "E-LLM-FORBIDDEN",
+      "owner": "Stephen",
+      "surface": "inline",
+      "retry": "user"
+    },
+    {
+      "id": "E-LLM-LOCAL-BLOCKED",
+      "owner": "Stephen",
+      "surface": "inline",
+      "retry": "user"
+    },
+    {
+      "id": "E-LLM-NETWORK",
+      "owner": "Stephen",
+      "surface": "inline",
+      "retry": "user"
+    },
+    {
+      "id": "E-LLM-NO-KEY",
+      "owner": "Stephen",
+      "surface": "inline",
+      "retry": "user"
+    },
+    {
+      "id": "E-LLM-PARSE",
+      "owner": "Stephen",
+      "surface": "silent",
+      "retry": "auto"
+    },
+    {
+      "id": "E-LLM-RATE",
+      "owner": "Stephen",
+      "surface": "inline",
+      "retry": "user"
+    },
+    {
+      "id": "E-LLM-SERVER",
+      "owner": "Stephen",
+      "surface": "inline",
+      "retry": "user"
+    },
+    {
+      "id": "E-LLM-TIMEOUT",
+      "owner": "Stephen",
+      "surface": "inline",
+      "retry": "user"
+    },
+    {
+      "id": "E-NET-HOST-GONE",
+      "owner": "Phillip",
+      "surface": "screen",
+      "retry": "none"
+    },
+    {
+      "id": "E-NET-HOST-LOST",
+      "owner": "Phillip",
+      "surface": "screen",
+      "retry": "auto"
+    },
+    {
+      "id": "E-NET-HOST-NOT-FOUND",
+      "owner": "Phillip",
+      "surface": "screen",
+      "retry": "user"
+    },
+    {
+      "id": "E-NET-ICE-FAILED",
+      "owner": "Phillip",
+      "surface": "screen",
+      "retry": "user"
+    },
+    {
+      "id": "E-NET-OFFLINE",
+      "owner": "Phillip",
+      "surface": "banner",
+      "retry": "auto"
+    },
+    {
+      "id": "E-NET-RELAY-REGISTER",
+      "owner": "Phillip",
+      "surface": "screen",
+      "retry": "user"
+    },
+    {
+      "id": "E-NET-RELAY-UNREACHABLE",
+      "owner": "Phillip",
+      "surface": "screen",
+      "retry": "user"
+    },
+    {
+      "id": "E-NET-SEAT-TIMEOUT",
+      "owner": "Phillip",
+      "surface": "screen",
+      "retry": "user"
+    },
+    {
+      "id": "E-PROFILE-NICK-INVALID",
+      "owner": "Phillip",
+      "surface": "inline",
+      "retry": "user"
+    },
+    {
+      "id": "E-PROJ-ARENA-DENIED",
+      "owner": "Phillip",
+      "surface": "screen",
+      "retry": "none"
+    },
+    {
+      "id": "E-PROJ-LEAK-BLOCKED",
+      "owner": "Phillip",
+      "surface": "silent",
+      "retry": "none"
+    },
+    {
+      "id": "E-PROTO-MALFORMED",
+      "owner": "Phillip",
+      "surface": "silent",
+      "retry": "none"
+    },
+    {
+      "id": "E-PROTO-NOT-FROM-HOST",
+      "owner": "Phillip",
+      "surface": "silent",
+      "retry": "none"
+    },
+    {
+      "id": "E-PROTO-RATE",
+      "owner": "Phillip",
+      "surface": "silent",
+      "retry": "none"
+    },
+    {
+      "id": "E-PROTO-TOO-LARGE",
+      "owner": "Phillip",
+      "surface": "silent",
+      "retry": "none"
+    },
+    {
+      "id": "E-PROTO-UNKNOWN-TYPE",
+      "owner": "Phillip",
+      "surface": "silent",
+      "retry": "none"
+    },
+    {
+      "id": "E-ROOM-BAD-TRANSITION",
+      "owner": "Phillip",
+      "surface": "silent",
+      "retry": "none"
+    },
+    {
+      "id": "E-ROOM-REFILL-NOT-ALLOWED",
+      "owner": "Phillip",
+      "surface": "silent",
+      "retry": "none"
+    },
+    {
+      "id": "E-ROOM-SEATS-FULL",
+      "owner": "Phillip",
+      "surface": "toast",
+      "retry": "none"
+    },
+    {
+      "id": "E-ROOM-START-MIN-PLAYERS",
+      "owner": "Phillip",
+      "surface": "inline",
+      "retry": "user"
+    },
+    {
+      "id": "E-SHR-CORRUPT",
+      "owner": "Stephen",
+      "surface": "screen",
+      "retry": "none"
+    },
+    {
+      "id": "E-SHR-NEWER",
+      "owner": "Stephen",
+      "surface": "screen",
+      "retry": "user"
+    },
+    {
+      "id": "E-SHR-TOO-LONG",
+      "owner": "Stephen",
+      "surface": "inline",
+      "retry": "none"
+    },
+    {
+      "id": "E-SHR-UNSUPPORTED",
+      "owner": "Stephen",
+      "surface": "screen",
+      "retry": "none"
+    },
+    {
+      "id": "E-STO-BLOCKED",
+      "owner": "Phillip",
+      "surface": "banner",
+      "retry": "user"
+    },
+    {
+      "id": "E-STO-IMPORT-CORRUPT",
+      "owner": "Phillip",
+      "surface": "inline",
+      "retry": "user"
+    },
+    {
+      "id": "E-STO-IMPORT-FORMAT",
+      "owner": "Phillip",
+      "surface": "inline",
+      "retry": "user"
+    },
+    {
+      "id": "E-STO-IMPORT-NEWER",
+      "owner": "Phillip",
+      "surface": "inline",
+      "retry": "user"
+    },
+    {
+      "id": "E-STO-QUOTA",
+      "owner": "Phillip",
+      "surface": "banner",
+      "retry": "user"
+    },
+    {
+      "id": "E-STO-UNAVAILABLE",
+      "owner": "Phillip",
+      "surface": "banner",
+      "retry": "none"
+    },
+    {
+      "id": "E-STO-WIPE-FAILED",
+      "owner": "Phillip",
+      "surface": "inline",
+      "retry": "user"
+    },
+    {
+      "id": "E-UI-BOOT",
+      "owner": "Andrew",
+      "surface": "screen",
+      "retry": "user"
+    },
+    {
+      "id": "E-UI-CLIPBOARD",
+      "owner": "Andrew",
+      "surface": "toast",
+      "retry": "user"
+    },
+    {
+      "id": "E-UI-NOT-FOUND",
+      "owner": "Andrew",
+      "surface": "screen",
+      "retry": "none"
+    },
+    {
+      "id": "E-WORKER-CRASH",
+      "owner": "Phillip",
+      "surface": "screen",
+      "retry": "user"
+    }
+  ],
+  "notices": [
+    {
+      "id": "N-BLINDS-NEXT",
+      "to": "all",
+      "p": "{sb, bb}",
+      "ss": "SS10",
+      "us": "US12"
+    },
+    {
+      "id": "N-BOT-NEXT-HAND",
+      "to": "all",
+      "p": "{seat, change: 'add'|'remove'|'update'}",
+      "ss": "SS5",
+      "us": "US29"
+    },
+    {
+      "id": "N-CLOSING-AFTER-HAND",
+      "to": "all",
+      "p": "{}",
+      "ss": "SS12",
+      "us": "US15"
+    },
+    {
+      "id": "N-HOST-ISOLATED",
+      "to": "local",
+      "p": "{}",
+      "ss": "SS12",
+      "us": "US16"
+    },
+    {
+      "id": "N-KICKED",
+      "to": "target",
+      "p": "{}",
+      "ss": "SS5",
+      "us": "US12"
+    },
+    {
+      "id": "N-LLM-CAP",
+      "to": "local",
+      "p": "{cap}",
+      "ss": "SS15",
+      "us": "US22"
+    },
+    {
+      "id": "N-LLM-KEY",
+      "to": "local",
+      "p": "{provider, seat}",
+      "ss": "SS15",
+      "us": "US28"
+    },
+    {
+      "id": "N-OTHER-TAB",
+      "to": "target",
+      "p": "{}",
+      "ss": "SS11",
+      "us": "US14"
+    },
+    {
+      "id": "N-PAUSED",
+      "to": "all",
+      "p": "{}",
+      "ss": "SS4",
+      "us": "US7"
+    },
+    {
+      "id": "N-REFILL-HINT",
+      "to": "target",
+      "p": "{}",
+      "ss": "SS10",
+      "us": "US3"
+    },
+    {
+      "id": "N-RESUMED",
+      "to": "all",
+      "p": "{}",
+      "ss": "SS4",
+      "us": "US7"
+    },
+    {
+      "id": "N-SETTINGS",
+      "to": "all",
+      "p": "{liveEquity?, botChatter?}",
+      "ss": "SS21",
+      "us": "US20"
+    },
+    {
+      "id": "N-SITOUT-STRIKES",
+      "to": "target",
+      "p": "{strikes}",
+      "ss": "SS9",
+      "us": "US9"
+    }
+  ]
+}

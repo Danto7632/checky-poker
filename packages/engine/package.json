@@ -1,0 +1,14 @@
+{
+  "name": "@checky/engine",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts",
+    "./table": "./src/table/index.ts",
+    "./projection": "./src/projection/index.ts",
+    "./record": "./src/record/index.ts",
+    "./protocol": "./src/protocol/index.ts",
+    "./util": "./src/util/index.ts"
+  }
+}

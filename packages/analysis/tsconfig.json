@@ -1,0 +1,12 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "lib": ["ES2023"],
+    "types": [],
+    "composite": true,
+    "emitDeclarationOnly": true,
+    "outDir": "../../node_modules/.cache/tsbuild/analysis"
+  },
+  "include": ["src", "test"],
+  "references": [{ "path": "../engine" }]
+}
