@@ -1,4 +1,8 @@
 @import 'tailwindcss' source(none);
 @source '../**/*.{js,ts,jsx,tsx}';
+/* D-A3: dormant screens and the unused shadcn kit carry third-party URLs (transparenttextures) and arbitrary-value
+   classes; scanning them would put those into the release CSS (AC-10 S2). */
+@source not '../app/legacy';
+@source not '../app/components';
 
 @import 'tw-animate-css';

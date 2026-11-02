@@ -1,0 +1,50 @@
+{
+  "_doc": "Rules and reasoned allow-lists for scan-dist.mjs (ADR-0012 scan scope S1-S7, patterns section 11; S9 practice_flow from lead review 2 R0-L12). Every allow entry needs a reason. Read by scan-dist.mjs, app/__tests__/guardrails.test.tsx and app/practice/warmup.test.tsx.",
+  "dormant_markers": ["Dummy Missions", "PRO BUNDLE", "Players Left", "AIPOT", "Make Public", "Quick Play", "quick-play", "Monthly Pass", "Buy Chips", "createFakeClient"],
+  "dormant_routes": ["/store", "/lobby", "/loading", "/play", "/review"],
+  "hotlinks": ["dicebear", "transparenttextures", "fonts.googleapis.com", "fonts.gstatic.com", "cdn.jsdelivr.net", "unpkg.com"],
+  "external_urls": [
+    { "prefix": "https://checkypoker.pages.dev", "why": "production origin (routes.v1 hosting)" },
+    { "prefix": "https://github.com/Danto7632/checky-poker", "why": "source link (G-7 allow-list, land.footer.github)" },
+    { "prefix": "http://www.w3.org/2000/svg", "why": "SVG namespace constant (React DOM, inline SVG); never fetched" },
+    { "prefix": "http://www.w3.org/1999/xhtml", "why": "XHTML namespace constant (React DOM); never fetched" },
+    { "prefix": "http://www.w3.org/1999/xlink", "why": "XLink namespace constant (React DOM); never fetched" },
+    { "prefix": "http://www.w3.org/1998/Math/MathML", "why": "MathML namespace constant (React DOM); never fetched" },
+    { "prefix": "http://www.w3.org/XML/1998/namespace", "why": "XML namespace constant (React DOM); never fetched" },
+    { "prefix": "https://reactjs.org/docs/error-decoder.html", "why": "text of React's minified production error messages; never fetched" },
+    { "prefix": "https://reactrouter.com/", "why": "text of react-router invariant messages; never fetched" },
+    { "prefix": "https://radix-ui.com/primitives/docs/", "why": "text of Radix accessibility warnings; never fetched" },
+    { "prefix": "https://tailwindcss.com", "why": "Tailwind licence banner comment in the CSS" },
+    { "prefix": "http://localhost", "why": "react-router URL-parsing base for new URL(); never fetched" }
+  ],
+  "currency": "[$₩¥€£]\\s?\\d|\\d\\s?[$₩¥€£]",
+  "banned_everywhere": ["GTO", "optimal", "guaranteed", "unbeatable", "hack-proof", "jackpot", "prize", "reward", "free coins", "最適", "必勝", "賞金", "buy", "purchase", "shop", "ショップ", "top up"],
+  "banned_store": "\\bstore\\b",
+  "banned_pro": "\\bPRO\\b",
+  "disclosure_only": {
+    "words": ["cash", "現金", "購入", "換金", "bought"],
+    "keys": ["footer.disclosure", "gate.item.chips", "closed.noCash", "menu.noCash", "help.gambling.body", "land.faq.gambling", "land.footer.disclosure"],
+    "why": "G-2 disclosure sentences say chips have NO cash value and can't be bought (patterns section 11 contextual rule)",
+    "html_sentences": [
+      { "text": "Chips are play money with no cash value and can't be bought, sold or exchanged. This is not gambling. For adults 18+.", "why": "land.footer.disclosure (en) on the temporary landing" }
+    ]
+  },
+  "e2e_names": ["__CHECKY_E2E__", "__CHECKY_E2E_CAPTURE__", "__CHECKY_E2E_TAP__", "checky-dev-tap"],
+  "practice_flow": {
+    "_doc": "S9: once the shell warm-up has run after the gate (any gated screen, or X-01 for a tab that passed the gate before), Practice -> Deal me in -> Leave, again and again, must fetch nothing. Every chunk reached lazily (import() or a Worker script) from app.html is listed here: preloaded by that warm-up (practice/warmup.ts PracticeWarmup, once per tab; warmup.test.tsx and GateRoute.test.tsx assert one trigger per entry) or outside the practice flow, with the reason. Names are Vite chunk names ([name]-[hash].js).",
+    "entry": "app.html",
+    "preloaded": [
+      { "chunk": "PracticeScreen", "how": "the /practice route chunk (React.lazy(loadPracticeScreen)): the shell warm-up preloads it with the same loader, PR-01 is that chunk; TableScreen, the menu sheet, BetSizer, result, refill and alert screens are static parts of it" },
+      { "chunk": "game-services", "how": "shell warm-up after the gate: composition.loadGameServices() (cached for the page)" },
+      { "chunk": "worker", "how": "shell warm-up after the gate: prewarmPracticeHost() spawns the tab's dealer Worker, reused by every table (R0-L12)" },
+      { "chunk": "metrics.worker", "how": "shell warm-up after the gate: prewarmMetrics() spawns the tab's metrics Worker, reused by every table (R0-L12)" }
+    ],
+    "outside": [
+      { "chunk": "_checky-i18n-off", "why": "default build's empty ko dictionary (vite.config koSwitch): imported only when FEATURE_KO is on, which this build is not" },
+      { "chunk": "ko", "why": "FEATURE_KO builds: I18nProvider loads the ko dictionary at app start, before any practice screen" }
+    ],
+    "computed_imports": [
+      { "near": "Error loading route module", "why": "react-router's framework-mode loadRouteModule (import(route.module) of a HydratedRouter manifest). routes.tsx is a createBrowserRouter data router with no route `lazy` and no route modules, so this never runs" }
+    ]
+  }
+}

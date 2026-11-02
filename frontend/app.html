@@ -1,0 +1,33 @@
+<!doctype html>
+<!-- App shell (ADR-0013). Cloudflare Pages serves this file for every app route (/app, /practice, ...).
+     lang is updated at runtime to the UI language. The app shell is always noindex.
+     #root holds a static boot-failure notice (E-UI-BOOT, X-01) that only becomes visible after 3 seconds; when the app
+     mounts, React replaces it. Its rules (.cp-boot-fallback) live in src/styles/theme.css, which the build links in
+     this head. No inline script or style (CSP script-src 'self'; ADR-0014 plans to drop style-src 'unsafe-inline'). -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, interactive-widget=overlays-content" />
+    <meta name="robots" content="noindex" />
+    <meta name="theme-color" content="#0B1012" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <title>Checky Poker</title>
+  </head>
+  <body>
+    <div id="root">
+      <div class="cp-boot-fallback">
+        <section lang="en">
+          <h1>Checky Poker couldn't start</h1>
+          <p>Your browser may be out of date or blocking scripts. Update it or try another browser, then reload.</p>
+          <p><a href="">Reload</a></p>
+        </section>
+        <section lang="ja">
+          <h1>チェッキーポーカーを起動できませんでした</h1>
+          <p>ブラウザが古いか、スクリプトがブロックされている可能性があります。更新するか別のブラウザで試し、再読み込みしてください。</p>
+          <p><a href="">再読み込み</a></p>
+        </section>
+      </div>
+    </div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

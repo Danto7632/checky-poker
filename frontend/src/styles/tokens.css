@@ -1,0 +1,212 @@
+/* Checky Poker — design tokens (source of truth: tokens.md).
+   Copy to frontend/src/styles/tokens.css (Andrew). Dark theme only in Phase 1.
+   Fonts are bundled from npm (same origin), never from a CDN — see tokens.md §3.2. */
+
+:root {
+  color-scheme: dark;
+
+  /* ---------- Ink neutrals (hue-biased toward the felt) ---------- */
+  --ink-950: #0B1012;
+  --ink-900: #11181B;
+  --ink-850: #172024;
+  --ink-800: #1E292E;
+  --ink-700: #2A373D;
+  --line-subtle: #222E33;
+  --line: #2E3C42;
+  --line-strong: #5F7176;     /* control boundaries, >= 3:1 on ink-900/850 */
+  --text: #EEF3F2;
+  --text-muted: #9AABAE;
+  --text-subtle: #7B8E92;     /* never on --ink-800 */
+  --text-on-accent: #0B1012;
+
+  /* ---------- Table ---------- */
+  --felt: #123C3B;
+  --felt-center: #18504E;
+  --felt-edge: #0F3534;
+  --rail: #0D1517;
+  --rail-highlight: rgba(255, 255, 255, 0.06);
+  --card-face: #F7F5F0;
+  --card-edge: #D9D4C9;
+  --suit-red: #D21F3C;
+  --suit-black: #141A1D;
+  --card-back: #163233;
+  --suit-blue: #1F5FBF;       /* reserved: optional 4-color deck (proposal) */
+  --suit-green: #1B7A45;      /* reserved */
+
+  /* ---------- Accent: Cheeky Pink (3 uses only: my turn, bot voice, brand) ---------- */
+  --accent: #FF5C9E;
+  --accent-hover: #FF7AB0;
+  --accent-press: #E84A8B;
+  --accent-soft: rgba(255, 92, 158, 0.14);
+  --accent-line: rgba(255, 92, 158, 0.45);
+  --accent-on-light: #E2357F;
+
+  /* ---------- Semantic (separate from accent) ---------- */
+  --good: #3DDC97;
+  --warn: #F5B83D;
+  --critical: #FF6A4D;
+  --info: #6CC4FF;
+  --good-soft: rgba(61, 220, 151, 0.12);
+  --warn-soft: rgba(245, 184, 61, 0.12);
+  --critical-soft: rgba(255, 106, 77, 0.12);
+  --info-soft: rgba(108, 196, 255, 0.12);
+  --focus: #9FE7FF;
+
+  /* ---------- Seat palette (avatars; accent excluded) ---------- */
+  --seat-1: #7FD1C7;
+  --seat-2: #F2C14E;
+  --seat-3: #B79CFF;
+  --seat-4: #FF9E7A;
+  --seat-5: #8FD16B;
+  --seat-6: #7FB2FF;
+
+  /* ---------- Type ---------- */
+  --font-ui: "Pretendard JP Variable", "Pretendard Variable", -apple-system, BlinkMacSystemFont,
+    "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic UI", "Meiryo", "Apple SD Gothic Neo",
+    "Malgun Gothic", system-ui, sans-serif;
+  --font-display: "Bricolage Grotesque Variable", var(--font-ui);
+  --font-mono: "JetBrains Mono Variable", ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+
+  --fs-micro: 0.75rem;        /* 12 */
+  --fs-small: 0.875rem;       /* 14 */
+  --fs-body: 1rem;            /* 16 */
+  --fs-title-sm: 1.25rem;     /* 20 */
+  --fs-title: 1.5625rem;      /* 25 */
+  --fs-h2: 1.9375rem;         /* 31 */
+  --fs-h1: 2.4375rem;         /* 39 */
+  --fs-display: 3.0625rem;    /* 49 */
+  --fs-display-xl: 3.8125rem; /* 61 */
+
+  --lh-tight: 1.05;
+  --lh-heading: 1.2;
+  --lh-ui: 1.35;
+  --lh-body: 1.55;
+
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-semibold: 600;
+  --fw-bold: 700;
+  --fw-heavy: 800;
+
+  --tracking-label: 0.06em;
+  --measure: 65ch;
+
+  /* ---------- Space (4pt) ---------- */
+  --s-0: 0;
+  --s-half: 2px;
+  --s-1: 4px;
+  --s-2: 8px;
+  --s-3: 12px;
+  --s-4: 16px;
+  --s-5: 20px;
+  --s-6: 24px;
+  --s-8: 32px;
+  --s-10: 40px;
+  --s-12: 48px;
+  --s-16: 64px;
+  --s-20: 80px;
+
+  /* ---------- Radius ---------- */
+  --r-xs: 4px;
+  --r-sm: 6px;
+  --r-md: 10px;
+  --r-lg: 16px;
+  --r-pill: 999px;
+
+  /* ---------- Elevation ---------- */
+  --e-0: none;
+  --e-1: 0 1px 0 rgba(255, 255, 255, 0.04) inset, 0 1px 2px rgba(0, 0, 0, 0.40);
+  --e-2: 0 0 0 1px var(--line), 0 8px 24px rgba(0, 0, 0, 0.45);
+  --e-3: 0 0 0 1px var(--line), 0 24px 64px rgba(0, 0, 0, 0.55);
+  --e-turn: 0 0 0 2px var(--accent), 0 0 24px rgba(255, 92, 158, 0.35);
+
+  /* ---------- Sizes ---------- */
+  --tap-min: 44px;
+  --btn-h-sm: 36px;
+  --btn-h-md: 44px;
+  --btn-h-lg: 52px;
+  --btn-h-xl: 60px;
+  --card-w: 64px;
+  --card-h: 90px;
+  --board-card-w: 60px;
+  --board-card-h: 84px;
+  --mini-card-w: 36px;
+  --mini-card-h: 50px;
+  --r-card: calc(var(--card-w) * 0.1);
+  --avatar: 48px;
+  --rail-w: 18px;
+  --side-panel-w: 360px;
+  --table-max-w: 1120px;
+
+  /* ---------- Motion ---------- */
+  --dur-instant: 80ms;
+  --dur-fast: 140ms;
+  --dur-base: 220ms;
+  --dur-slow: 320ms;
+  --dur-reveal: 480ms;
+  --stagger: 90ms;
+  --ease-out: cubic-bezier(0.2, 0.8, 0.2, 1);
+  --ease-in: cubic-bezier(0.4, 0, 1, 1);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --ease-land: cubic-bezier(0.34, 1.3, 0.64, 1);
+
+  /* ---------- Z ---------- */
+  --z-felt: 0;
+  --z-seat: 10;
+  --z-cards: 20;
+  --z-bet: 30;
+  --z-hud: 40;
+  --z-panel: 50;
+  --z-sheet: 60;
+  --z-toast: 70;
+  --z-dialog: 80;
+  --z-gate: 90;
+}
+
+/* Phone portrait / small: smaller table geometry */
+@media (max-width: 767px) {
+  :root {
+    --card-w: 56px;
+    --card-h: 78px;
+    --board-card-w: 44px;
+    --board-card-h: 62px;
+    --avatar: 40px;
+    --rail-w: 10px;
+  }
+}
+
+/* ---------- Base ---------- */
+html { font-family: var(--font-ui); font-size: 100%; background: var(--ink-950); color: var(--text); }
+body { margin: 0; font-size: var(--fs-body); line-height: var(--lh-body); -webkit-font-smoothing: antialiased; }
+h1, h2, h3 { text-wrap: balance; line-height: var(--lh-heading); }
+p { text-wrap: pretty; }
+.num, [data-num] { font-variant-numeric: tabular-nums; }
+:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; border-radius: var(--r-sm); }
+
+:lang(ja) { line-break: strict; }
+:lang(ja) body { line-height: 1.7; }
+:lang(ja) .display, :lang(ja) [data-font="display"] { font-family: var(--font-ui); font-weight: var(--fw-heavy); }
+:lang(ja) .label-caps { text-transform: none; letter-spacing: 0.02em; }
+:lang(ko) { word-break: keep-all; }
+:lang(ko) { --font-ui: "Pretendard Variable", "Pretendard JP Variable", -apple-system, BlinkMacSystemFont,
+    "Apple SD Gothic Neo", "Malgun Gothic", system-ui, sans-serif; }
+
+.label-caps { font-size: var(--fs-micro); font-weight: var(--fw-semibold); letter-spacing: var(--tracking-label); text-transform: uppercase; }
+
+/* ---------- Reduced motion: keep opacity only ---------- */
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --dur-slow: 140ms;
+    --dur-reveal: 140ms;
+    --dur-base: 140ms;
+    --stagger: 0ms;
+    --ease-land: linear;
+  }
+  *, *::before, *::after {
+    scroll-behavior: auto !important;
+  }
+  [data-motion="move"], [data-motion="flip"], [data-motion="scale"] {
+    transform: none !important;
+    transition-property: opacity !important;
+  }
+}

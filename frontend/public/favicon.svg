@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <title>Checky Poker</title>
+  <rect width="32" height="32" rx="7" fill="#0B1012"/>
+  <path d="M17.78 11.04A7.14 7.14 0 1 0 17.78 20.96" fill="none" stroke="#EEF3F2" stroke-width="4.4" stroke-linecap="round"/>
+  <path d="M23.56 12.22L21.88 17.26M27.13 12.22L25.45 17.26" fill="none" stroke="#FF5C9E" stroke-width="3" stroke-linecap="round"/>
+</svg>

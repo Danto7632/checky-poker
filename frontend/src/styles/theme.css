@@ -1,181 +1,219 @@
-@custom-variant dark (&:is(.dark *));
+/* Tailwind v4 theme for Checky Poker (design-handoff section 2).
 
-:root {
-  --font-size: 16px;
-  --background: #ffffff;
-  --foreground: oklch(0.145 0 0);
-  --card: #ffffff;
-  --card-foreground: oklch(0.145 0 0);
-  --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.145 0 0);
-  --primary: #030213;
-  --primary-foreground: oklch(1 0 0);
-  --secondary: oklch(0.95 0.0058 264.53);
-  --secondary-foreground: #030213;
-  --muted: #ececf0;
-  --muted-foreground: #717182;
-  --accent: #e9ebef;
-  --accent-foreground: #030213;
-  --destructive: #d4183d;
-  --destructive-foreground: #ffffff;
-  --border: rgba(0, 0, 0, 0.1);
-  --input: transparent;
-  --input-background: #f3f3f5;
-  --switch-background: #cbced4;
-  --font-weight-medium: 500;
-  --font-weight-normal: 400;
-  --ring: oklch(0.708 0 0);
-  --chart-1: oklch(0.646 0.222 41.116);
-  --chart-2: oklch(0.6 0.118 184.704);
-  --chart-3: oklch(0.398 0.07 227.392);
-  --chart-4: oklch(0.828 0.189 84.429);
-  --chart-5: oklch(0.769 0.188 70.08);
-  --radius: 0.625rem;
-  --sidebar: oklch(0.985 0 0);
-  --sidebar-foreground: oklch(0.145 0 0);
-  --sidebar-primary: #030213;
-  --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.97 0 0);
-  --sidebar-accent-foreground: oklch(0.205 0 0);
-  --sidebar-border: oklch(0.922 0 0);
-  --sidebar-ring: oklch(0.708 0 0);
-}
+   Every utility the app uses resolves to a token from tokens.css (copied byte-for-byte from 07-design). The default
+   Tailwind palette, radii, shadows, type scale, fonts and breakpoints are reset first, so a class such as
+   `bg-gray-100` or `shadow-lg` simply produces no CSS: off-token styling cannot slip in unnoticed.
 
-.dark {
-  --background: oklch(0.145 0 0);
-  --foreground: oklch(0.985 0 0);
-  --card: oklch(0.145 0 0);
-  --card-foreground: oklch(0.985 0 0);
-  --popover: oklch(0.145 0 0);
-  --popover-foreground: oklch(0.985 0 0);
-  --primary: oklch(0.985 0 0);
-  --primary-foreground: oklch(0.205 0 0);
-  --secondary: oklch(0.269 0 0);
-  --secondary-foreground: oklch(0.985 0 0);
-  --muted: oklch(0.269 0 0);
-  --muted-foreground: oklch(0.708 0 0);
-  --accent: oklch(0.269 0 0);
-  --accent-foreground: oklch(0.985 0 0);
-  --destructive: oklch(0.396 0.141 25.723);
-  --destructive-foreground: oklch(0.637 0.237 25.331);
-  --border: oklch(0.269 0 0);
-  --input: oklch(0.269 0 0);
-  --ring: oklch(0.439 0 0);
-  --font-weight-medium: 500;
-  --font-weight-normal: 400;
-  --chart-1: oklch(0.488 0.243 264.376);
-  --chart-2: oklch(0.696 0.17 162.48);
-  --chart-3: oklch(0.769 0.188 70.08);
-  --chart-4: oklch(0.627 0.265 303.9);
-  --chart-5: oklch(0.645 0.246 16.439);
-  --sidebar: oklch(0.205 0 0);
-  --sidebar-foreground: oklch(0.985 0 0);
-  --sidebar-primary: oklch(0.488 0.243 264.376);
-  --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.269 0 0);
-  --sidebar-accent-foreground: oklch(0.985 0 0);
-  --sidebar-border: oklch(0.269 0 0);
-  --sidebar-ring: oklch(0.439 0 0);
+   Values that are not in tokens.css but are fixed by ui-spec (breakpoints, a few container widths) are declared here
+   once as theme variables. Media queries cannot read CSS custom properties, which is why breakpoints are literal. */
+
+@theme {
+  --color-*: initial;
+  --radius-*: initial;
+  --shadow-*: initial;
+  --text-*: initial;
+  --font-*: initial;
+  --container-*: initial;
+  --breakpoint-*: initial;
+
+  /* ui-spec / design-handoff section 8: 480 · 768 · 1024 · 1440 */
+  --breakpoint-xs: 30rem;
+  --breakpoint-md: 48rem;
+  --breakpoint-lg: 64rem;
+  --breakpoint-xl: 90rem;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --color-card: var(--card);
-  --color-card-foreground: var(--card-foreground);
-  --color-popover: var(--popover);
-  --color-popover-foreground: var(--popover-foreground);
-  --color-primary: var(--primary);
-  --color-primary-foreground: var(--primary-foreground);
-  --color-secondary: var(--secondary);
-  --color-secondary-foreground: var(--secondary-foreground);
-  --color-muted: var(--muted);
-  --color-muted-foreground: var(--muted-foreground);
-  --color-accent: var(--accent);
-  --color-accent-foreground: var(--accent-foreground);
-  --color-destructive: var(--destructive);
-  --color-destructive-foreground: var(--destructive-foreground);
-  --color-border: var(--border);
-  --color-input: var(--input);
-  --color-input-background: var(--input-background);
-  --color-switch-background: var(--switch-background);
-  --color-ring: var(--ring);
-  --color-chart-1: var(--chart-1);
-  --color-chart-2: var(--chart-2);
-  --color-chart-3: var(--chart-3);
-  --color-chart-4: var(--chart-4);
-  --color-chart-5: var(--chart-5);
-  --radius-sm: calc(var(--radius) - 4px);
-  --radius-md: calc(var(--radius) - 2px);
-  --radius-lg: var(--radius);
-  --radius-xl: calc(var(--radius) + 4px);
-  --color-sidebar: var(--sidebar);
-  --color-sidebar-foreground: var(--sidebar-foreground);
-  --color-sidebar-primary: var(--sidebar-primary);
-  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
-  --color-sidebar-accent: var(--sidebar-accent);
-  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
-  --color-sidebar-border: var(--sidebar-border);
-  --color-sidebar-ring: var(--sidebar-ring);
+  /* design-handoff section 2 mapping (verbatim) */
+  --color-background: var(--ink-950);
+  --color-surface: var(--ink-900);
+  --color-raised: var(--ink-850);
+  --color-input: var(--ink-800);
+  --color-foreground: var(--text);
+  --color-muted-foreground: var(--text-muted);
+  --color-subtle: var(--text-subtle);
+  --color-border: var(--line);
+  --color-border-strong: var(--line-strong);
+  --color-primary: var(--accent);
+  --color-primary-foreground: var(--text-on-accent);
+  --color-good: var(--good);
+  --color-warn: var(--warn);
+  --color-critical: var(--critical);
+  --color-info: var(--info);
+  --color-felt: var(--felt);
+  --color-ring: var(--focus);
+  --radius-sm: var(--r-sm);
+  --radius-md: var(--r-md);
+  --radius-lg: var(--r-lg);
+  --font-sans: var(--font-ui);
+  --font-display: var(--font-display);
+  --font-mono: var(--font-mono);
+
+  /* Additions the components need (still token references only) */
+  --color-ink-700: var(--ink-700);
+  --color-border-subtle: var(--line-subtle);
+  --color-primary-hover: var(--accent-hover);
+  --color-primary-press: var(--accent-press);
+  --color-primary-soft: var(--accent-soft);
+  --color-primary-on-light: var(--accent-on-light);
+  --color-primary-line: var(--accent-line);
+  --color-good-soft: var(--good-soft);
+  --color-warn-soft: var(--warn-soft);
+  --color-critical-soft: var(--critical-soft);
+  --color-info-soft: var(--info-soft);
+  --color-felt-center: var(--felt-center);
+  --color-felt-edge: var(--felt-edge);
+  --color-rail: var(--rail);
+  --color-rail-highlight: var(--rail-highlight);
+  --color-card-face: var(--card-face);
+  --color-card-edge: var(--card-edge);
+  --color-card-back: var(--card-back);
+  --color-suit-red: var(--suit-red);
+  --color-suit-black: var(--suit-black);
+  --color-seat-1: var(--seat-1);
+  --color-seat-2: var(--seat-2);
+  --color-seat-3: var(--seat-3);
+  --color-seat-4: var(--seat-4);
+  --color-seat-5: var(--seat-5);
+  --color-seat-6: var(--seat-6);
+
+  --radius-xs: var(--r-xs);
+  --radius-pill: var(--r-pill);
+  --radius-card: var(--r-card);
+
+  --shadow-e1: var(--e-1);
+  --shadow-e2: var(--e-2);
+  --shadow-e3: var(--e-3);
+  --shadow-turn: var(--e-turn);
+
+  /* 4pt scale: p-4 = 4 x --s-1 = 16px = --s-4 (tokens are multiples of --s-1) */
+  --spacing: var(--s-1);
+
+  --text-micro: var(--fs-micro);
+  --text-small: var(--fs-small);
+  --text-body: var(--fs-body);
+  --text-title-sm: var(--fs-title-sm);
+  --text-title: var(--fs-title);
+  --text-h2: var(--fs-h2);
+  --text-h1: var(--fs-h1);
+  --text-display: var(--fs-display);
+  --text-display-xl: var(--fs-display-xl);
+
+  --leading-tight: var(--lh-tight);
+  --leading-heading: var(--lh-heading);
+  --leading-ui: var(--lh-ui);
+  --leading-body: var(--lh-body);
+
+  /* ui-spec widths: gate / sheet card 520, dialog 480, toast 420, app body 960, table 1120 */
+  --container-gate: 520px;
+  --container-dialog: 480px;
+  --container-toast: 420px;
+  --container-app: 960px;
+  --container-table: var(--table-max-w);
+  --container-prose: var(--measure);
 }
 
 @layer base {
-  * {
-    @apply border-border outline-ring/50;
+  :root {
+    /* Sheet height cap (components.md 1.8: 90vh, dynamic viewport so mobile browser chrome is excluded). */
+    --sheet-max-h: 90dvh;
+    /* Vertical space the table needs besides the felt (ui-spec T-01: HUD 56 + action bar 112 + seat and hero rows),
+       used to cap the felt width so a 2:1 felt also fits short viewports. */
+    --felt-chrome: calc(56px + 112px + var(--s-16) * 4);
   }
-
-  body {
-    @apply bg-background text-foreground;
+  #root {
+    min-height: 100dvh;
   }
-
-  /**
-  * Default typography styles for HTML elements (h1-h4, p, label, button, input).
-  * These are in @layer base, so Tailwind utility classes (like text-sm, text-lg) automatically override them.
-  */
-
-  html {
-    font-size: var(--font-size);
+  button,
+  [role='button'] {
+    cursor: pointer;
   }
-
-  h1 {
-    font-size: var(--text-2xl);
-    font-weight: var(--font-weight-medium);
-    line-height: 1.5;
+  button:disabled,
+  [aria-disabled='true'] {
+    cursor: not-allowed;
   }
+}
 
-  h2 {
-    font-size: var(--text-xl);
-    font-weight: var(--font-weight-medium);
-    line-height: 1.5;
+/* Motion helpers (motion-spec). Durations and easings come from tokens, so reduced motion (tokens.css) shortens them
+   automatically; only opacity animates here, so nothing moves under prefers-reduced-motion either. */
+@layer components {
+  .motion-fade-in {
+    animation: cp-fade-in var(--dur-fast) var(--ease-out) both;
   }
-
-  h3 {
-    font-size: var(--text-lg);
-    font-weight: var(--font-weight-medium);
-    line-height: 1.5;
+  .motion-fade-in-base {
+    animation: cp-fade-in var(--dur-base) var(--ease-out) both;
   }
-
-  h4 {
-    font-size: var(--text-base);
-    font-weight: var(--font-weight-medium);
-    line-height: 1.5;
+  .motion-transition {
+    transition-duration: var(--dur-fast);
+    transition-timing-function: var(--ease-out);
   }
-
-  label {
-    font-size: var(--text-base);
-    font-weight: var(--font-weight-medium);
-    line-height: 1.5;
+  /* Gate loading: stay blank for 300 ms (no flash), then show the logo (ui-spec G-01 loading). */
+  .motion-delay-300 {
+    animation-delay: 300ms;
   }
-
-  button {
-    font-size: var(--text-base);
-    font-weight: var(--font-weight-medium);
-    line-height: 1.5;
+  /* Skeleton shimmer (components.md 1.14: 1.2 s, stopped under reduced motion by `motion-reduce:animate-none`). */
+  .motion-shimmer {
+    animation: cp-shimmer 1.2s var(--ease-in-out) infinite alternate;
   }
+}
 
-  input {
-    font-size: var(--text-base);
-    font-weight: var(--font-weight-normal);
-    line-height: 1.5;
+/* Headings that receive focus programmatically (tabindex=-1, gate and error screens) start the screen-reader at the
+   title; they are not interactive, so no focus ring. Unlayered on purpose: tokens.css' global :focus-visible is
+   unlayered too and would otherwise win over any Tailwind utility. */
+:where(h1, h2)[tabindex='-1']:focus-visible {
+  outline: none;
+}
+
+/* Table toasts are click-through (components.md 1.10, W5 R0-2 R0-L18 / MS-R0-3 D5). The table's bottom slot sets
+   data-table-toasts on :root while it is mounted (table/BottomSlot.tsx); a toast there has no action button, and
+   with pointer-events off it can neither take a click meant for the action bar or the BetSizer confirm nor freeze
+   under a resting pointer (sonner pauses on hover). Unlayered and more specific than sonner's own toast rules. */
+:root[data-table-toasts] [data-sonner-toaster],
+:root[data-table-toasts] [data-sonner-toast] {
+  pointer-events: none;
+}
+
+/* app.html boot-failure notice (E-UI-BOOT, X-01): hidden for 3 s, then shown if React never mounted over it. Here and
+   not inline in app.html so the shell works without style-src 'unsafe-inline' (ADR-0014). Built into the app CSS that
+   Vite links in app.html's head, so it applies even when the entry script fails to run. Unlayered, like the inline
+   <style> it replaces. Values unchanged from that block. */
+.cp-boot-fallback {
+  visibility: hidden;
+  animation: cp-boot-show 0s linear 3s forwards;
+  max-width: 32rem;
+  margin: 0 auto;
+  padding: var(--s-8) var(--s-4);
+}
+.cp-boot-fallback h1 {
+  font-size: var(--fs-title);
+}
+.cp-boot-fallback p {
+  color: var(--text-muted);
+}
+.cp-boot-fallback a {
+  color: var(--info);
+}
+
+@keyframes cp-boot-show {
+  to {
+    visibility: visible;
+  }
+}
+
+@keyframes cp-shimmer {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0.55;
+  }
+}
+
+@keyframes cp-fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
   }
 }

@@ -1,0 +1,48 @@
+/* Temporary static landing (index.html). Plain CSS on the same tokens; the full landing (5-3) replaces it. */
+@import './fonts.css';
+@import './tokens.css';
+
+.landing {
+  max-width: var(--measure);
+  margin: 0 auto;
+  padding: var(--s-16) var(--s-4) var(--s-10);
+}
+.landing h1 {
+  font-family: var(--font-display);
+  font-size: var(--fs-h1);
+  font-weight: var(--fw-heavy);
+  margin: 0 0 var(--s-4);
+}
+.landing .sub {
+  color: var(--text-muted);
+  font-size: var(--fs-title-sm);
+}
+.landing .meta {
+  color: var(--text-muted);
+  font-size: var(--fs-small);
+}
+.landing .cta {
+  display: inline-flex;
+  align-items: center;
+  min-height: var(--btn-h-lg);
+  padding: 0 var(--s-6);
+  border-radius: var(--r-md);
+  background: var(--accent);
+  color: var(--text-on-accent);
+  font-weight: var(--fw-bold);
+  text-decoration: none;
+}
+.landing .cta:hover {
+  background: var(--accent-hover);
+}
+.landing-footer {
+  max-width: var(--measure);
+  margin: 0 auto;
+  padding: var(--s-6) var(--s-4) var(--s-10);
+  border-top: 1px solid var(--line);
+  color: var(--text-muted);
+  font-size: var(--fs-small);
+}
+.landing-footer a {
+  color: var(--info);
+}

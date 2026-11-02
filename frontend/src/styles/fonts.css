@@ -1,0 +1,9 @@
+/* Same-origin web fonts (tokens.md section 3.2, CSP font-src 'self'). The npm packages ship woff2 files that Vite
+   copies into dist/assets; no CDN, no data: URIs. font-display: swap is set inside each package's @font-face.
+   - Pretendard JP Variable: UI and Japanese body text, dynamic subsets (only the unicode-range blocks a page uses
+     are downloaded).
+   - Bricolage Grotesque Variable (standard = wght 200-800 + wdth 75-100%): Latin display.
+   - JetBrains Mono Variable: room codes, diagnostics. */
+@import 'pretendard-jp/dist/web/variable/pretendardvariable-jp-dynamic-subset.css';
+@import '@fontsource-variable/bricolage-grotesque/standard.css';
+@import '@fontsource-variable/jetbrains-mono/index.css';
