@@ -1,0 +1,2744 @@
+{
+ "spots": [
+  {
+   "id": "pf-AsAh-n1",
+   "hole": [
+    "As",
+    "Ah"
+   ],
+   "board": [],
+   "opponents": 1
+  },
+  {
+   "id": "pf-AsAh-n2",
+   "hole": [
+    "As",
+    "Ah"
+   ],
+   "board": [],
+   "opponents": 2
+  },
+  {
+   "id": "pf-AsAh-n3",
+   "hole": [
+    "As",
+    "Ah"
+   ],
+   "board": [],
+   "opponents": 3
+  },
+  {
+   "id": "pf-AsAh-n4",
+   "hole": [
+    "As",
+    "Ah"
+   ],
+   "board": [],
+   "opponents": 4
+  },
+  {
+   "id": "pf-AsAh-n5",
+   "hole": [
+    "As",
+    "Ah"
+   ],
+   "board": [],
+   "opponents": 5
+  },
+  {
+   "id": "pf-KdKc-n1",
+   "hole": [
+    "Kd",
+    "Kc"
+   ],
+   "board": [],
+   "opponents": 1
+  },
+  {
+   "id": "pf-KdKc-n2",
+   "hole": [
+    "Kd",
+    "Kc"
+   ],
+   "board": [],
+   "opponents": 2
+  },
+  {
+   "id": "pf-KdKc-n3",
+   "hole": [
+    "Kd",
+    "Kc"
+   ],
+   "board": [],
+   "opponents": 3
+  },
+  {
+   "id": "pf-KdKc-n4",
+   "hole": [
+    "Kd",
+    "Kc"
+   ],
+   "board": [],
+   "opponents": 4
+  },
+  {
+   "id": "pf-KdKc-n5",
+   "hole": [
+    "Kd",
+    "Kc"
+   ],
+   "board": [],
+   "opponents": 5
+  },
+  {
+   "id": "pf-AsKs-n1",
+   "hole": [
+    "As",
+    "Ks"
+   ],
+   "board": [],
+   "opponents": 1
+  },
+  {
+   "id": "pf-AsKs-n2",
+   "hole": [
+    "As",
+    "Ks"
+   ],
+   "board": [],
+   "opponents": 2
+  },
+  {
+   "id": "pf-AsKs-n3",
+   "hole": [
+    "As",
+    "Ks"
+   ],
+   "board": [],
+   "opponents": 3
+  },
+  {
+   "id": "pf-AsKs-n4",
+   "hole": [
+    "As",
+    "Ks"
+   ],
+   "board": [],
+   "opponents": 4
+  },
+  {
+   "id": "pf-AsKs-n5",
+   "hole": [
+    "As",
+    "Ks"
+   ],
+   "board": [],
+   "opponents": 5
+  },
+  {
+   "id": "pf-AhKd-n1",
+   "hole": [
+    "Ah",
+    "Kd"
+   ],
+   "board": [],
+   "opponents": 1
+  },
+  {
+   "id": "pf-AhKd-n2",
+   "hole": [
+    "Ah",
+    "Kd"
+   ],
+   "board": [],
+   "opponents": 2
+  },
+  {
+   "id": "pf-AhKd-n3",
+   "hole": [
+    "Ah",
+    "Kd"
+   ],
+   "board": [],
+   "opponents": 3
+  },
+  {
+   "id": "pf-AhKd-n4",
+   "hole": [
+    "Ah",
+    "Kd"
+   ],
+   "board": [],
+   "opponents": 4
+  },
+  {
+   "id": "pf-AhKd-n5",
+   "hole": [
+    "Ah",
+    "Kd"
+   ],
+   "board": [],
+   "opponents": 5
+  },
+  {
+   "id": "pf-QhJh-n1",
+   "hole": [
+    "Qh",
+    "Jh"
+   ],
+   "board": [],
+   "opponents": 1
+  },
+  {
+   "id": "pf-QhJh-n2",
+   "hole": [
+    "Qh",
+    "Jh"
+   ],
+   "board": [],
+   "opponents": 2
+  },
+  {
+   "id": "pf-QhJh-n3",
+   "hole": [
+    "Qh",
+    "Jh"
+   ],
+   "board": [],
+   "opponents": 3
+  },
+  {
+   "id": "pf-QhJh-n4",
+   "hole": [
+    "Qh",
+    "Jh"
+   ],
+   "board": [],
+   "opponents": 4
+  },
+  {
+   "id": "pf-QhJh-n5",
+   "hole": [
+    "Qh",
+    "Jh"
+   ],
+   "board": [],
+   "opponents": 5
+  },
+  {
+   "id": "pf-Td9d-n1",
+   "hole": [
+    "Td",
+    "9d"
+   ],
+   "board": [],
+   "opponents": 1
+  },
+  {
+   "id": "pf-Td9d-n2",
+   "hole": [
+    "Td",
+    "9d"
+   ],
+   "board": [],
+   "opponents": 2
+  },
+  {
+   "id": "pf-Td9d-n3",
+   "hole": [
+    "Td",
+    "9d"
+   ],
+   "board": [],
+   "opponents": 3
+  },
+  {
+   "id": "pf-Td9d-n4",
+   "hole": [
+    "Td",
+    "9d"
+   ],
+   "board": [],
+   "opponents": 4
+  },
+  {
+   "id": "pf-Td9d-n5",
+   "hole": [
+    "Td",
+    "9d"
+   ],
+   "board": [],
+   "opponents": 5
+  },
+  {
+   "id": "pf-7c2d-n1",
+   "hole": [
+    "7c",
+    "2d"
+   ],
+   "board": [],
+   "opponents": 1
+  },
+  {
+   "id": "pf-7c2d-n2",
+   "hole": [
+    "7c",
+    "2d"
+   ],
+   "board": [],
+   "opponents": 2
+  },
+  {
+   "id": "pf-7c2d-n3",
+   "hole": [
+    "7c",
+    "2d"
+   ],
+   "board": [],
+   "opponents": 3
+  },
+  {
+   "id": "pf-7c2d-n4",
+   "hole": [
+    "7c",
+    "2d"
+   ],
+   "board": [],
+   "opponents": 4
+  },
+  {
+   "id": "pf-7c2d-n5",
+   "hole": [
+    "7c",
+    "2d"
+   ],
+   "board": [],
+   "opponents": 5
+  },
+  {
+   "id": "pf-5s5d-n1",
+   "hole": [
+    "5s",
+    "5d"
+   ],
+   "board": [],
+   "opponents": 1
+  },
+  {
+   "id": "pf-5s5d-n2",
+   "hole": [
+    "5s",
+    "5d"
+   ],
+   "board": [],
+   "opponents": 2
+  },
+  {
+   "id": "pf-5s5d-n3",
+   "hole": [
+    "5s",
+    "5d"
+   ],
+   "board": [],
+   "opponents": 3
+  },
+  {
+   "id": "pf-5s5d-n4",
+   "hole": [
+    "5s",
+    "5d"
+   ],
+   "board": [],
+   "opponents": 4
+  },
+  {
+   "id": "pf-5s5d-n5",
+   "hole": [
+    "5s",
+    "5d"
+   ],
+   "board": [],
+   "opponents": 5
+  },
+  {
+   "id": "fl-AsKs-Qs7s2d-n1",
+   "hole": [
+    "As",
+    "Ks"
+   ],
+   "board": [
+    "Qs",
+    "7s",
+    "2d"
+   ],
+   "opponents": 1
+  },
+  {
+   "id": "fl-AsKs-Qs7s2d-n2",
+   "hole": [
+    "As",
+    "Ks"
+   ],
+   "board": [
+    "Qs",
+    "7s",
+    "2d"
+   ],
+   "opponents": 2
+  },
+  {
+   "id": "fl-AsKs-Qs7s2d-n3",
+   "hole": [
+    "As",
+    "Ks"
+   ],
+   "board": [
+    "Qs",
+    "7s",
+    "2d"
+   ],
+   "opponents": 3
+  },
+  {
+   "id": "fl-AsKs-Qs7s2d-n4",
+   "hole": [
+    "As",
+    "Ks"
+   ],
+   "board": [
+    "Qs",
+    "7s",
+    "2d"
+   ],
+   "opponents": 4
+  },
+  {
+   "id": "fl-AsKs-Qs7s2d-n5",
+   "hole": [
+    "As",
+    "Ks"
+   ],
+   "board": [
+    "Qs",
+    "7s",
+    "2d"
+   ],
+   "opponents": 5
+  },
+  {
+   "id": "fl-8h8d-Kc7h2s-n1",
+   "hole": [
+    "8h",
+    "8d"
+   ],
+   "board": [
+    "Kc",
+    "7h",
+    "2s"
+   ],
+   "opponents": 1
+  },
+  {
+   "id": "fl-8h8d-Kc7h2s-n2",
+   "hole": [
+    "8h",
+    "8d"
+   ],
+   "board": [
+    "Kc",
+    "7h",
+    "2s"
+   ],
+   "opponents": 2
+  },
+  {
+   "id": "fl-8h8d-Kc7h2s-n3",
+   "hole": [
+    "8h",
+    "8d"
+   ],
+   "board": [
+    "Kc",
+    "7h",
+    "2s"
+   ],
+   "opponents": 3
+  },
+  {
+   "id": "fl-8h8d-Kc7h2s-n4",
+   "hole": [
+    "8h",
+    "8d"
+   ],
+   "board": [
+    "Kc",
+    "7h",
+    "2s"
+   ],
+   "opponents": 4
+  },
+  {
+   "id": "fl-8h8d-Kc7h2s-n5",
+   "hole": [
+    "8h",
+    "8d"
+   ],
+   "board": [
+    "Kc",
+    "7h",
+    "2s"
+   ],
+   "opponents": 5
+  },
+  {
+   "id": "fl-JcTc-9c8d2h-n1",
+   "hole": [
+    "Jc",
+    "Tc"
+   ],
+   "board": [
+    "9c",
+    "8d",
+    "2h"
+   ],
+   "opponents": 1
+  },
+  {
+   "id": "fl-JcTc-9c8d2h-n2",
+   "hole": [
+    "Jc",
+    "Tc"
+   ],
+   "board": [
+    "9c",
+    "8d",
+    "2h"
+   ],
+   "opponents": 2
+  },
+  {
+   "id": "fl-JcTc-9c8d2h-n3",
+   "hole": [
+    "Jc",
+    "Tc"
+   ],
+   "board": [
+    "9c",
+    "8d",
+    "2h"
+   ],
+   "opponents": 3
+  },
+  {
+   "id": "fl-JcTc-9c8d2h-n4",
+   "hole": [
+    "Jc",
+    "Tc"
+   ],
+   "board": [
+    "9c",
+    "8d",
+    "2h"
+   ],
+   "opponents": 4
+  },
+  {
+   "id": "fl-JcTc-9c8d2h-n5",
+   "hole": [
+    "Jc",
+    "Tc"
+   ],
+   "board": [
+    "9c",
+    "8d",
+    "2h"
+   ],
+   "opponents": 5
+  },
+  {
+   "id": "fl-AhQd-AdTs5c-n1",
+   "hole": [
+    "Ah",
+    "Qd"
+   ],
+   "board": [
+    "Ad",
+    "Ts",
+    "5c"
+   ],
+   "opponents": 1
+  },
+  {
+   "id": "fl-AhQd-AdTs5c-n2",
+   "hole": [
+    "Ah",
+    "Qd"
+   ],
+   "board": [
+    "Ad",
+    "Ts",
+    "5c"
+   ],
+   "opponents": 2
+  },
+  {
+   "id": "fl-AhQd-AdTs5c-n3",
+   "hole": [
+    "Ah",
+    "Qd"
+   ],
+   "board": [
+    "Ad",
+    "Ts",
+    "5c"
+   ],
+   "opponents": 3
+  },
+  {
+   "id": "fl-AhQd-AdTs5c-n4",
+   "hole": [
+    "Ah",
+    "Qd"
+   ],
+   "board": [
+    "Ad",
+    "Ts",
+    "5c"
+   ],
+   "opponents": 4
+  },
+  {
+   "id": "fl-AhQd-AdTs5c-n5",
+   "hole": [
+    "Ah",
+    "Qd"
+   ],
+   "board": [
+    "Ad",
+    "Ts",
+    "5c"
+   ],
+   "opponents": 5
+  },
+  {
+   "id": "fl-6s6h-6d9cKh-n1",
+   "hole": [
+    "6s",
+    "6h"
+   ],
+   "board": [
+    "6d",
+    "9c",
+    "Kh"
+   ],
+   "opponents": 1
+  },
+  {
+   "id": "fl-6s6h-6d9cKh-n2",
+   "hole": [
+    "6s",
+    "6h"
+   ],
+   "board": [
+    "6d",
+    "9c",
+    "Kh"
+   ],
+   "opponents": 2
+  },
+  {
+   "id": "fl-6s6h-6d9cKh-n3",
+   "hole": [
+    "6s",
+    "6h"
+   ],
+   "board": [
+    "6d",
+    "9c",
+    "Kh"
+   ],
+   "opponents": 3
+  },
+  {
+   "id": "fl-6s6h-6d9cKh-n4",
+   "hole": [
+    "6s",
+    "6h"
+   ],
+   "board": [
+    "6d",
+    "9c",
+    "Kh"
+   ],
+   "opponents": 4
+  },
+  {
+   "id": "fl-6s6h-6d9cKh-n5",
+   "hole": [
+    "6s",
+    "6h"
+   ],
+   "board": [
+    "6d",
+    "9c",
+    "Kh"
+   ],
+   "opponents": 5
+  },
+  {
+   "id": "fl-9d8d-KsQh2c-n1",
+   "hole": [
+    "9d",
+    "8d"
+   ],
+   "board": [
+    "Ks",
+    "Qh",
+    "2c"
+   ],
+   "opponents": 1
+  },
+  {
+   "id": "fl-9d8d-KsQh2c-n2",
+   "hole": [
+    "9d",
+    "8d"
+   ],
+   "board": [
+    "Ks",
+    "Qh",
+    "2c"
+   ],
+   "opponents": 2
+  },
+  {
+   "id": "fl-9d8d-KsQh2c-n3",
+   "hole": [
+    "9d",
+    "8d"
+   ],
+   "board": [
+    "Ks",
+    "Qh",
+    "2c"
+   ],
+   "opponents": 3
+  },
+  {
+   "id": "fl-9d8d-KsQh2c-n4",
+   "hole": [
+    "9d",
+    "8d"
+   ],
+   "board": [
+    "Ks",
+    "Qh",
+    "2c"
+   ],
+   "opponents": 4
+  },
+  {
+   "id": "fl-9d8d-KsQh2c-n5",
+   "hole": [
+    "9d",
+    "8d"
+   ],
+   "board": [
+    "Ks",
+    "Qh",
+    "2c"
+   ],
+   "opponents": 5
+  },
+  {
+   "id": "fl-KhQh-JhTh2s-n1",
+   "hole": [
+    "Kh",
+    "Qh"
+   ],
+   "board": [
+    "Jh",
+    "Th",
+    "2s"
+   ],
+   "opponents": 1
+  },
+  {
+   "id": "fl-KhQh-JhTh2s-n2",
+   "hole": [
+    "Kh",
+    "Qh"
+   ],
+   "board": [
+    "Jh",
+    "Th",
+    "2s"
+   ],
+   "opponents": 2
+  },
+  {
+   "id": "fl-KhQh-JhTh2s-n3",
+   "hole": [
+    "Kh",
+    "Qh"
+   ],
+   "board": [
+    "Jh",
+    "Th",
+    "2s"
+   ],
+   "opponents": 3
+  },
+  {
+   "id": "fl-KhQh-JhTh2s-n4",
+   "hole": [
+    "Kh",
+    "Qh"
+   ],
+   "board": [
+    "Jh",
+    "Th",
+    "2s"
+   ],
+   "opponents": 4
+  },
+  {
+   "id": "fl-KhQh-JhTh2s-n5",
+   "hole": [
+    "Kh",
+    "Qh"
+   ],
+   "board": [
+    "Jh",
+    "Th",
+    "2s"
+   ],
+   "opponents": 5
+  },
+  {
+   "id": "fl-5c4c-3d2s9h-n1",
+   "hole": [
+    "5c",
+    "4c"
+   ],
+   "board": [
+    "3d",
+    "2s",
+    "9h"
+   ],
+   "opponents": 1
+  },
+  {
+   "id": "fl-5c4c-3d2s9h-n2",
+   "hole": [
+    "5c",
+    "4c"
+   ],
+   "board": [
+    "3d",
+    "2s",
+    "9h"
+   ],
+   "opponents": 2
+  },
+  {
+   "id": "fl-5c4c-3d2s9h-n3",
+   "hole": [
+    "5c",
+    "4c"
+   ],
+   "board": [
+    "3d",
+    "2s",
+    "9h"
+   ],
+   "opponents": 3
+  },
+  {
+   "id": "fl-5c4c-3d2s9h-n4",
+   "hole": [
+    "5c",
+    "4c"
+   ],
+   "board": [
+    "3d",
+    "2s",
+    "9h"
+   ],
+   "opponents": 4
+  },
+  {
+   "id": "fl-5c4c-3d2s9h-n5",
+   "hole": [
+    "5c",
+    "4c"
+   ],
+   "board": [
+    "3d",
+    "2s",
+    "9h"
+   ],
+   "opponents": 5
+  },
+  {
+   "id": "tu-AsKs-Qs7s2d4h-n1",
+   "hole": [
+    "As",
+    "Ks"
+   ],
+   "board": [
+    "Qs",
+    "7s",
+    "2d",
+    "4h"
+   ],
+   "opponents": 1
+  },
+  {
+   "id": "tu-AsKs-Qs7s2d4h-n2",
+   "hole": [
+    "As",
+    "Ks"
+   ],
+   "board": [
+    "Qs",
+    "7s",
+    "2d",
+    "4h"
+   ],
+   "opponents": 2
+  },
+  {
+   "id": "tu-AsKs-Qs7s2d4h-n3",
+   "hole": [
+    "As",
+    "Ks"
+   ],
+   "board": [
+    "Qs",
+    "7s",
+    "2d",
+    "4h"
+   ],
+   "opponents": 3
+  },
+  {
+   "id": "tu-AsKs-Qs7s2d4h-n4",
+   "hole": [
+    "As",
+    "Ks"
+   ],
+   "board": [
+    "Qs",
+    "7s",
+    "2d",
+    "4h"
+   ],
+   "opponents": 4
+  },
+  {
+   "id": "tu-AsKs-Qs7s2d4h-n5",
+   "hole": [
+    "As",
+    "Ks"
+   ],
+   "board": [
+    "Qs",
+    "7s",
+    "2d",
+    "4h"
+   ],
+   "opponents": 5
+  },
+  {
+   "id": "tu-8h8d-Kc7h2s3d-n1",
+   "hole": [
+    "8h",
+    "8d"
+   ],
+   "board": [
+    "Kc",
+    "7h",
+    "2s",
+    "3d"
+   ],
+   "opponents": 1
+  },
+  {
+   "id": "tu-8h8d-Kc7h2s3d-n2",
+   "hole": [
+    "8h",
+    "8d"
+   ],
+   "board": [
+    "Kc",
+    "7h",
+    "2s",
+    "3d"
+   ],
+   "opponents": 2
+  },
+  {
+   "id": "tu-8h8d-Kc7h2s3d-n3",
+   "hole": [
+    "8h",
+    "8d"
+   ],
+   "board": [
+    "Kc",
+    "7h",
+    "2s",
+    "3d"
+   ],
+   "opponents": 3
+  },
+  {
+   "id": "tu-8h8d-Kc7h2s3d-n4",
+   "hole": [
+    "8h",
+    "8d"
+   ],
+   "board": [
+    "Kc",
+    "7h",
+    "2s",
+    "3d"
+   ],
+   "opponents": 4
+  },
+  {
+   "id": "tu-8h8d-Kc7h2s3d-n5",
+   "hole": [
+    "8h",
+    "8d"
+   ],
+   "board": [
+    "Kc",
+    "7h",
+    "2s",
+    "3d"
+   ],
+   "opponents": 5
+  },
+  {
+   "id": "tu-JcTc-9c8d2h3s-n1",
+   "hole": [
+    "Jc",
+    "Tc"
+   ],
+   "board": [
+    "9c",
+    "8d",
+    "2h",
+    "3s"
+   ],
+   "opponents": 1
+  },
+  {
+   "id": "tu-JcTc-9c8d2h3s-n2",
+   "hole": [
+    "Jc",
+    "Tc"
+   ],
+   "board": [
+    "9c",
+    "8d",
+    "2h",
+    "3s"
+   ],
+   "opponents": 2
+  },
+  {
+   "id": "tu-JcTc-9c8d2h3s-n3",
+   "hole": [
+    "Jc",
+    "Tc"
+   ],
+   "board": [
+    "9c",
+    "8d",
+    "2h",
+    "3s"
+   ],
+   "opponents": 3
+  },
+  {
+   "id": "tu-JcTc-9c8d2h3s-n4",
+   "hole": [
+    "Jc",
+    "Tc"
+   ],
+   "board": [
+    "9c",
+    "8d",
+    "2h",
+    "3s"
+   ],
+   "opponents": 4
+  },
+  {
+   "id": "tu-JcTc-9c8d2h3s-n5",
+   "hole": [
+    "Jc",
+    "Tc"
+   ],
+   "board": [
+    "9c",
+    "8d",
+    "2h",
+    "3s"
+   ],
+   "opponents": 5
+  },
+  {
+   "id": "tu-AhQd-AdTs5c8h-n1",
+   "hole": [
+    "Ah",
+    "Qd"
+   ],
+   "board": [
+    "Ad",
+    "Ts",
+    "5c",
+    "8h"
+   ],
+   "opponents": 1
+  },
+  {
+   "id": "tu-AhQd-AdTs5c8h-n2",
+   "hole": [
+    "Ah",
+    "Qd"
+   ],
+   "board": [
+    "Ad",
+    "Ts",
+    "5c",
+    "8h"
+   ],
+   "opponents": 2
+  },
+  {
+   "id": "tu-AhQd-AdTs5c8h-n3",
+   "hole": [
+    "Ah",
+    "Qd"
+   ],
+   "board": [
+    "Ad",
+    "Ts",
+    "5c",
+    "8h"
+   ],
+   "opponents": 3
+  },
+  {
+   "id": "tu-AhQd-AdTs5c8h-n4",
+   "hole": [
+    "Ah",
+    "Qd"
+   ],
+   "board": [
+    "Ad",
+    "Ts",
+    "5c",
+    "8h"
+   ],
+   "opponents": 4
+  },
+  {
+   "id": "tu-AhQd-AdTs5c8h-n5",
+   "hole": [
+    "Ah",
+    "Qd"
+   ],
+   "board": [
+    "Ad",
+    "Ts",
+    "5c",
+    "8h"
+   ],
+   "opponents": 5
+  },
+  {
+   "id": "tu-KhQh-JhTh2s3c-n1",
+   "hole": [
+    "Kh",
+    "Qh"
+   ],
+   "board": [
+    "Jh",
+    "Th",
+    "2s",
+    "3c"
+   ],
+   "opponents": 1
+  },
+  {
+   "id": "tu-KhQh-JhTh2s3c-n2",
+   "hole": [
+    "Kh",
+    "Qh"
+   ],
+   "board": [
+    "Jh",
+    "Th",
+    "2s",
+    "3c"
+   ],
+   "opponents": 2
+  },
+  {
+   "id": "tu-KhQh-JhTh2s3c-n3",
+   "hole": [
+    "Kh",
+    "Qh"
+   ],
+   "board": [
+    "Jh",
+    "Th",
+    "2s",
+    "3c"
+   ],
+   "opponents": 3
+  },
+  {
+   "id": "tu-KhQh-JhTh2s3c-n4",
+   "hole": [
+    "Kh",
+    "Qh"
+   ],
+   "board": [
+    "Jh",
+    "Th",
+    "2s",
+    "3c"
+   ],
+   "opponents": 4
+  },
+  {
+   "id": "tu-KhQh-JhTh2s3c-n5",
+   "hole": [
+    "Kh",
+    "Qh"
+   ],
+   "board": [
+    "Jh",
+    "Th",
+    "2s",
+    "3c"
+   ],
+   "opponents": 5
+  },
+  {
+   "id": "tu-9d8d-KsQh2c4d-n1",
+   "hole": [
+    "9d",
+    "8d"
+   ],
+   "board": [
+    "Ks",
+    "Qh",
+    "2c",
+    "4d"
+   ],
+   "opponents": 1
+  },
+  {
+   "id": "tu-9d8d-KsQh2c4d-n2",
+   "hole": [
+    "9d",
+    "8d"
+   ],
+   "board": [
+    "Ks",
+    "Qh",
+    "2c",
+    "4d"
+   ],
+   "opponents": 2
+  },
+  {
+   "id": "tu-9d8d-KsQh2c4d-n3",
+   "hole": [
+    "9d",
+    "8d"
+   ],
+   "board": [
+    "Ks",
+    "Qh",
+    "2c",
+    "4d"
+   ],
+   "opponents": 3
+  },
+  {
+   "id": "tu-9d8d-KsQh2c4d-n4",
+   "hole": [
+    "9d",
+    "8d"
+   ],
+   "board": [
+    "Ks",
+    "Qh",
+    "2c",
+    "4d"
+   ],
+   "opponents": 4
+  },
+  {
+   "id": "tu-9d8d-KsQh2c4d-n5",
+   "hole": [
+    "9d",
+    "8d"
+   ],
+   "board": [
+    "Ks",
+    "Qh",
+    "2c",
+    "4d"
+   ],
+   "opponents": 5
+  },
+  {
+   "id": "rv-AsKs-Qs7s2d4h9c-n1",
+   "hole": [
+    "As",
+    "Ks"
+   ],
+   "board": [
+    "Qs",
+    "7s",
+    "2d",
+    "4h",
+    "9c"
+   ],
+   "opponents": 1
+  },
+  {
+   "id": "rv-AsKs-Qs7s2d4h9c-n2",
+   "hole": [
+    "As",
+    "Ks"
+   ],
+   "board": [
+    "Qs",
+    "7s",
+    "2d",
+    "4h",
+    "9c"
+   ],
+   "opponents": 2
+  },
+  {
+   "id": "rv-AsKs-Qs7s2d4h9c-n3",
+   "hole": [
+    "As",
+    "Ks"
+   ],
+   "board": [
+    "Qs",
+    "7s",
+    "2d",
+    "4h",
+    "9c"
+   ],
+   "opponents": 3
+  },
+  {
+   "id": "rv-AsKs-Qs7s2d4h9c-n4",
+   "hole": [
+    "As",
+    "Ks"
+   ],
+   "board": [
+    "Qs",
+    "7s",
+    "2d",
+    "4h",
+    "9c"
+   ],
+   "opponents": 4
+  },
+  {
+   "id": "rv-AsKs-Qs7s2d4h9c-n5",
+   "hole": [
+    "As",
+    "Ks"
+   ],
+   "board": [
+    "Qs",
+    "7s",
+    "2d",
+    "4h",
+    "9c"
+   ],
+   "opponents": 5
+  },
+  {
+   "id": "rv-8h8d-Kc7h2s3d4c-n1",
+   "hole": [
+    "8h",
+    "8d"
+   ],
+   "board": [
+    "Kc",
+    "7h",
+    "2s",
+    "3d",
+    "4c"
+   ],
+   "opponents": 1
+  },
+  {
+   "id": "rv-8h8d-Kc7h2s3d4c-n2",
+   "hole": [
+    "8h",
+    "8d"
+   ],
+   "board": [
+    "Kc",
+    "7h",
+    "2s",
+    "3d",
+    "4c"
+   ],
+   "opponents": 2
+  },
+  {
+   "id": "rv-8h8d-Kc7h2s3d4c-n3",
+   "hole": [
+    "8h",
+    "8d"
+   ],
+   "board": [
+    "Kc",
+    "7h",
+    "2s",
+    "3d",
+    "4c"
+   ],
+   "opponents": 3
+  },
+  {
+   "id": "rv-8h8d-Kc7h2s3d4c-n4",
+   "hole": [
+    "8h",
+    "8d"
+   ],
+   "board": [
+    "Kc",
+    "7h",
+    "2s",
+    "3d",
+    "4c"
+   ],
+   "opponents": 4
+  },
+  {
+   "id": "rv-8h8d-Kc7h2s3d4c-n5",
+   "hole": [
+    "8h",
+    "8d"
+   ],
+   "board": [
+    "Kc",
+    "7h",
+    "2s",
+    "3d",
+    "4c"
+   ],
+   "opponents": 5
+  },
+  {
+   "id": "rv-JcTc-9c8d2h3sQd-n1",
+   "hole": [
+    "Jc",
+    "Tc"
+   ],
+   "board": [
+    "9c",
+    "8d",
+    "2h",
+    "3s",
+    "Qd"
+   ],
+   "opponents": 1
+  },
+  {
+   "id": "rv-JcTc-9c8d2h3sQd-n2",
+   "hole": [
+    "Jc",
+    "Tc"
+   ],
+   "board": [
+    "9c",
+    "8d",
+    "2h",
+    "3s",
+    "Qd"
+   ],
+   "opponents": 2
+  },
+  {
+   "id": "rv-JcTc-9c8d2h3sQd-n3",
+   "hole": [
+    "Jc",
+    "Tc"
+   ],
+   "board": [
+    "9c",
+    "8d",
+    "2h",
+    "3s",
+    "Qd"
+   ],
+   "opponents": 3
+  },
+  {
+   "id": "rv-JcTc-9c8d2h3sQd-n4",
+   "hole": [
+    "Jc",
+    "Tc"
+   ],
+   "board": [
+    "9c",
+    "8d",
+    "2h",
+    "3s",
+    "Qd"
+   ],
+   "opponents": 4
+  },
+  {
+   "id": "rv-JcTc-9c8d2h3sQd-n5",
+   "hole": [
+    "Jc",
+    "Tc"
+   ],
+   "board": [
+    "9c",
+    "8d",
+    "2h",
+    "3s",
+    "Qd"
+   ],
+   "opponents": 5
+  },
+  {
+   "id": "rv-AhQd-AdTs5c8h3h-n1",
+   "hole": [
+    "Ah",
+    "Qd"
+   ],
+   "board": [
+    "Ad",
+    "Ts",
+    "5c",
+    "8h",
+    "3h"
+   ],
+   "opponents": 1
+  },
+  {
+   "id": "rv-AhQd-AdTs5c8h3h-n2",
+   "hole": [
+    "Ah",
+    "Qd"
+   ],
+   "board": [
+    "Ad",
+    "Ts",
+    "5c",
+    "8h",
+    "3h"
+   ],
+   "opponents": 2
+  },
+  {
+   "id": "rv-AhQd-AdTs5c8h3h-n3",
+   "hole": [
+    "Ah",
+    "Qd"
+   ],
+   "board": [
+    "Ad",
+    "Ts",
+    "5c",
+    "8h",
+    "3h"
+   ],
+   "opponents": 3
+  },
+  {
+   "id": "rv-AhQd-AdTs5c8h3h-n4",
+   "hole": [
+    "Ah",
+    "Qd"
+   ],
+   "board": [
+    "Ad",
+    "Ts",
+    "5c",
+    "8h",
+    "3h"
+   ],
+   "opponents": 4
+  },
+  {
+   "id": "rv-AhQd-AdTs5c8h3h-n5",
+   "hole": [
+    "Ah",
+    "Qd"
+   ],
+   "board": [
+    "Ad",
+    "Ts",
+    "5c",
+    "8h",
+    "3h"
+   ],
+   "opponents": 5
+  },
+  {
+   "id": "rv-7h6h-Ah9h2c3hKd-n1",
+   "hole": [
+    "7h",
+    "6h"
+   ],
+   "board": [
+    "Ah",
+    "9h",
+    "2c",
+    "3h",
+    "Kd"
+   ],
+   "opponents": 1
+  },
+  {
+   "id": "rv-7h6h-Ah9h2c3hKd-n2",
+   "hole": [
+    "7h",
+    "6h"
+   ],
+   "board": [
+    "Ah",
+    "9h",
+    "2c",
+    "3h",
+    "Kd"
+   ],
+   "opponents": 2
+  },
+  {
+   "id": "rv-7h6h-Ah9h2c3hKd-n3",
+   "hole": [
+    "7h",
+    "6h"
+   ],
+   "board": [
+    "Ah",
+    "9h",
+    "2c",
+    "3h",
+    "Kd"
+   ],
+   "opponents": 3
+  },
+  {
+   "id": "rv-7h6h-Ah9h2c3hKd-n4",
+   "hole": [
+    "7h",
+    "6h"
+   ],
+   "board": [
+    "Ah",
+    "9h",
+    "2c",
+    "3h",
+    "Kd"
+   ],
+   "opponents": 4
+  },
+  {
+   "id": "rv-7h6h-Ah9h2c3hKd-n5",
+   "hole": [
+    "7h",
+    "6h"
+   ],
+   "board": [
+    "Ah",
+    "9h",
+    "2c",
+    "3h",
+    "Kd"
+   ],
+   "opponents": 5
+  },
+  {
+   "id": "rv-2c3d-AsKsQsJsTs-n1",
+   "hole": [
+    "2c",
+    "3d"
+   ],
+   "board": [
+    "As",
+    "Ks",
+    "Qs",
+    "Js",
+    "Ts"
+   ],
+   "opponents": 1
+  },
+  {
+   "id": "rv-2c3d-AsKsQsJsTs-n2",
+   "hole": [
+    "2c",
+    "3d"
+   ],
+   "board": [
+    "As",
+    "Ks",
+    "Qs",
+    "Js",
+    "Ts"
+   ],
+   "opponents": 2
+  },
+  {
+   "id": "rv-2c3d-AsKsQsJsTs-n3",
+   "hole": [
+    "2c",
+    "3d"
+   ],
+   "board": [
+    "As",
+    "Ks",
+    "Qs",
+    "Js",
+    "Ts"
+   ],
+   "opponents": 3
+  },
+  {
+   "id": "rv-2c3d-AsKsQsJsTs-n4",
+   "hole": [
+    "2c",
+    "3d"
+   ],
+   "board": [
+    "As",
+    "Ks",
+    "Qs",
+    "Js",
+    "Ts"
+   ],
+   "opponents": 4
+  },
+  {
+   "id": "rv-2c3d-AsKsQsJsTs-n5",
+   "hole": [
+    "2c",
+    "3d"
+   ],
+   "board": [
+    "As",
+    "Ks",
+    "Qs",
+    "Js",
+    "Ts"
+   ],
+   "opponents": 5
+  }
+ ],
+ "reference": {
+  "tool": "checky-oracle (independent from-scratch Node.js evaluator + enumerator/sampler, written outside the repository; no repository code imported)",
+  "version": "oracle v1 / Node v24.15.0",
+  "command": "node run.mjs equity-golden.spots.json results.json 20000000 11 && node write_fixture.mjs equity-golden.spots.json results.json equity-golden.json 2026-11-01T13:14:52Z",
+  "seed": "checky-oracle/M17R-01/paul/v1 — Monte Carlo chunk seed = \"checky-oracle/M17R-01/paul/v1|<spotId>|mc|<chunk>\" (SHA-256 -> xoshiro128**), 20 chunks x 1000000",
+  "generatedAt": "2026-11-01T13:14:52Z",
+  "by": "Paul (lead oracle)"
+ },
+ "values": [
+  {
+   "id": "pf-AsAh-n1",
+   "equity": 0.8520371330210104,
+   "method": "exact",
+   "samples": null,
+   "halfWidth95": null
+  },
+  {
+   "id": "pf-AsAh-n2",
+   "equity": 0.734305075,
+   "method": "mc",
+   "samples": 20000000,
+   "halfWidth95": 0.000193585
+  },
+  {
+   "id": "pf-AsAh-n3",
+   "equity": 0.6383470875,
+   "method": "mc",
+   "samples": 20000000,
+   "halfWidth95": 0.000210579
+  },
+  {
+   "id": "pf-AsAh-n4",
+   "equity": 0.5587222583333333,
+   "method": "mc",
+   "samples": 20000000,
+   "halfWidth95": 0.000217618
+  },
+  {
+   "id": "pf-AsAh-n5",
+   "equity": 0.4918516916666667,
+   "method": "mc",
+   "samples": 20000000,
+   "halfWidth95": 0.000219106
+  },
+  {
+   "id": "pf-KdKc-n1",
+   "equity": 0.823956797867859,
+   "method": "exact",
+   "samples": null,
+   "halfWidth95": null
+  },
+  {
+   "id": "pf-KdKc-n2",
+   "equity": 0.6886712333333334,
+   "method": "mc",
+   "samples": 20000000,
+   "halfWidth95": 0.000202935
+  },
+  {
+   "id": "pf-KdKc-n3",
+   "equity": 0.5823699458333333,
+   "method": "mc",
+   "samples": 20000000,
+   "halfWidth95": 0.000216141
+  },
+  {
+   "id": "pf-KdKc-n4",
+   "equity": 0.49803347166666667,
+   "method": "mc",
+   "samples": 20000000,
+   "halfWidth95": 0.000219133
+  },
+  {
+   "id": "pf-KdKc-n5",
+   "equity": 0.429592575,
+   "method": "mc",
+   "samples": 20000000,
+   "halfWidth95": 0.000216951
+  },
+  {
+   "id": "pf-AsKs-n1",
+   "equity": 0.6704463230923519,
+   "method": "exact",
+   "samples": null,
+   "halfWidth95": null
+  },
+  {
+   "id": "pf-AsKs-n2",
+   "equity": 0.5072559166666667,
+   "method": "mc",
+   "samples": 20000000,
+   "halfWidth95": 0.000219112
+  },
+  {
+   "id": "pf-AsKs-n3",
+   "equity": 0.41443003333333334,
+   "method": "mc",
+   "samples": 20000000,
+   "halfWidth95": 0.000215902
+  },
+  {
+   "id": "pf-AsKs-n4",
+   "equity": 0.3542050758333333,
+   "method": "mc",
+   "samples": 20000000,
+   "halfWidth95": 0.000209612
+  },
+  {
+   "id": "pf-AsKs-n5",
+   "equity": 0.3105213083333333,
+   "method": "mc",
+   "samples": 20000000,
+   "halfWidth95": 0.00020279
+  },
+  {
+   "id": "pf-AhKd-n1",
+   "equity": 0.6532007178870203,
+   "method": "exact",
+   "samples": null,
+   "halfWidth95": null
+  },
+  {
+   "id": "pf-AhKd-n2",
+   "equity": 0.4822537583333333,
+   "method": "mc",
+   "samples": 20000000,
+   "halfWidth95": 0.000218997
+  },
+  {
+   "id": "pf-AhKd-n3",
+   "equity": 0.38526532916666667,
+   "method": "mc",
+   "samples": 20000000,
+   "halfWidth95": 0.000213287
+  },
+  {
+   "id": "pf-AhKd-n4",
+   "equity": 0.323027675,
+   "method": "mc",
+   "samples": 20000000,
+   "halfWidth95": 0.000204949
+  },
+  {
+   "id": "pf-AhKd-n5",
+   "equity": 0.27833315833333333,
+   "method": "mc",
+   "samples": 20000000,
+   "halfWidth95": 0.000196423
+  },
+  {
+   "id": "pf-QhJh-n1",
+   "equity": 0.6025920514114316,
+   "method": "exact",
+   "samples": null,
+   "halfWidth95": null
+  },
+  {
+   "id": "pf-QhJh-n2",
+   "equity": 0.441633225,
+   "method": "mc",
+   "samples": 20000000,
+   "halfWidth95": 0.000217636
+  },
+  {
+   "id": "pf-QhJh-n3",
+   "equity": 0.3566330875,
+   "method": "mc",
+   "samples": 20000000,
+   "halfWidth95": 0.000209933
+  },
+  {
+   "id": "pf-QhJh-n4",
+   "equity": 0.301961015,
+   "method": "mc",
+   "samples": 20000000,
+   "halfWidth95": 0.000201213
+  },
+  {
+   "id": "pf-QhJh-n5",
+   "equity": 0.2622352291666667,
+   "method": "mc",
+   "samples": 20000000,
+   "halfWidth95": 0.000192773
+  },
+  {
+   "id": "pf-Td9d-n1",
+   "equity": 0.540275286564602,
+   "method": "exact",
+   "samples": null,
+   "halfWidth95": null
+  },
+  {
+   "id": "pf-Td9d-n2",
+   "equity": 0.3873693833333334,
+   "method": "mc",
+   "samples": 20000000,
+   "halfWidth95": 0.000213503
+  },
+  {
+   "id": "pf-Td9d-n3",
+   "equity": 0.309612425,
+   "method": "mc",
+   "samples": 20000000,
+   "halfWidth95": 0.000202627
+  },
+  {
+   "id": "pf-Td9d-n4",
+   "equity": 0.2594557141666667,
+   "method": "mc",
+   "samples": 20000000,
+   "halfWidth95": 0.000192109
+  },
+  {
+   "id": "pf-Td9d-n5",
+   "equity": 0.223950875,
+   "method": "mc",
+   "samples": 20000000,
+   "halfWidth95": 0.00018271
+  },
+  {
+   "id": "pf-7c2d-n1",
+   "equity": 0.34583647315344157,
+   "method": "exact",
+   "samples": null,
+   "halfWidth95": null
+  },
+  {
+   "id": "pf-7c2d-n2",
+   "equity": 0.20486443333333332,
+   "method": "mc",
+   "samples": 20000000,
+   "halfWidth95": 0.000176887
+  },
+  {
+   "id": "pf-7c2d-n3",
+   "equity": 0.14244639583333332,
+   "method": "mc",
+   "samples": 20000000,
+   "halfWidth95": 0.000153178
+  },
+  {
+   "id": "pf-7c2d-n4",
+   "equity": 0.10759458833333332,
+   "method": "mc",
+   "samples": 20000000,
+   "halfWidth95": 0.000135806
+  },
+  {
+   "id": "pf-7c2d-n5",
+   "equity": 0.0860167875,
+   "method": "mc",
+   "samples": 20000000,
+   "halfWidth95": 0.000122886
+  },
+  {
+   "id": "pf-5s5d-n1",
+   "equity": 0.6032492051287479,
+   "method": "exact",
+   "samples": null,
+   "halfWidth95": null
+  },
+  {
+   "id": "pf-5s5d-n2",
+   "equity": 0.40045119166666665,
+   "method": "mc",
+   "samples": 20000000,
+   "halfWidth95": 0.000214748
+  },
+  {
+   "id": "pf-5s5d-n3",
+   "equity": 0.288744125,
+   "method": "mc",
+   "samples": 20000000,
+   "halfWidth95": 0.000198614
+  },
+  {
+   "id": "pf-5s5d-n4",
+   "equity": 0.22425789666666662,
+   "method": "mc",
+   "samples": 20000000,
+   "halfWidth95": 0.000182799
+  },
+  {
+   "id": "pf-5s5d-n5",
+   "equity": 0.18528199166666667,
+   "method": "mc",
+   "samples": 20000000,
+   "halfWidth95": 0.000170279
+  },
+  {
+   "id": "fl-AsKs-Qs7s2d-n1",
+   "equity": 0.726829815266448,
+   "method": "exact",
+   "samples": null,
+   "halfWidth95": null
+  },
+  {
+   "id": "fl-AsKs-Qs7s2d-n2",
+   "equity": 0.5929151221982293,
+   "method": "exact",
+   "samples": null,
+   "halfWidth95": null
+  },
+  {
+   "id": "fl-AsKs-Qs7s2d-n3",
+   "equity": 0.5224293041666667,
+   "method": "mc",
+   "samples": 20000000,
+   "halfWidth95": 0.000218914
+  },
+  {
+   "id": "fl-AsKs-Qs7s2d-n4",
+   "equity": 0.4811422125,
+   "method": "mc",
+   "samples": 20000000,
+   "halfWidth95": 0.000218979
+  },
+  {
+   "id": "fl-AsKs-Qs7s2d-n5",
+   "equity": 0.4536672916666667,
+   "method": "mc",
+   "samples": 20000000,
+   "halfWidth95": 0.000218192
+  },
+  {
+   "id": "fl-8h8d-Kc7h2s-n1",
+   "equity": 0.7125837468113139,
+   "method": "exact",
+   "samples": null,
+   "halfWidth95": null
+  },
+  {
+   "id": "fl-8h8d-Kc7h2s-n2",
+   "equity": 0.5127382427212472,
+   "method": "exact",
+   "samples": null,
+   "halfWidth95": null
+  },
+  {
+   "id": "fl-8h8d-Kc7h2s-n3",
+   "equity": 0.374018625,
+   "method": "mc",
+   "samples": 20000000,
+   "halfWidth95": 0.000212065
+  },
+  {
+   "id": "fl-8h8d-Kc7h2s-n4",
+   "equity": 0.278155275,
+   "method": "mc",
+   "samples": 20000000,
+   "halfWidth95": 0.000196384
+  },
+  {
+   "id": "fl-8h8d-Kc7h2s-n5",
+   "equity": 0.211361375,
+   "method": "mc",
+   "samples": 20000000,
+   "halfWidth95": 0.000178934
+  },
+  {
+   "id": "fl-JcTc-9c8d2h-n1",
+   "equity": 0.5753940889001018,
+   "method": "exact",
+   "samples": null,
+   "halfWidth95": null
+  },
+  {
+   "id": "fl-JcTc-9c8d2h-n2",
+   "equity": 0.4623584639898848,
+   "method": "exact",
+   "samples": null,
+   "halfWidth95": null
+  },
+  {
+   "id": "fl-JcTc-9c8d2h-n3",
+   "equity": 0.4138842,
+   "method": "mc",
+   "samples": 20000000,
+   "halfWidth95": 0.00021586
+  },
+  {
+   "id": "fl-JcTc-9c8d2h-n4",
+   "equity": 0.3826180375,
+   "method": "mc",
+   "samples": 20000000,
+   "halfWidth95": 0.00021301
+  },
+  {
+   "id": "fl-JcTc-9c8d2h-n5",
+   "equity": 0.358304975,
+   "method": "mc",
+   "samples": 20000000,
+   "halfWidth95": 0.000210151
+  },
+  {
+   "id": "fl-AhQd-AdTs5c-n1",
+   "equity": 0.8747895233556658,
+   "method": "exact",
+   "samples": null,
+   "halfWidth95": null
+  },
+  {
+   "id": "fl-AhQd-AdTs5c-n2",
+   "equity": 0.7659014351167038,
+   "method": "exact",
+   "samples": null,
+   "halfWidth95": null
+  },
+  {
+   "id": "fl-AhQd-AdTs5c-n3",
+   "equity": 0.6712543333333333,
+   "method": "mc",
+   "samples": 20000000,
+   "halfWidth95": 0.00020588
+  },
+  {
+   "id": "fl-AhQd-AdTs5c-n4",
+   "equity": 0.5885397125,
+   "method": "mc",
+   "samples": 20000000,
+   "halfWidth95": 0.000215672
+  },
+  {
+   "id": "fl-AhQd-AdTs5c-n5",
+   "equity": 0.5164414166666667,
+   "method": "mc",
+   "samples": 20000000,
+   "halfWidth95": 0.000219016
+  },
+  {
+   "id": "fl-6s6h-6d9cKh-n1",
+   "equity": 0.9412524878759846,
+   "method": "exact",
+   "samples": null,
+   "halfWidth95": null
+  },
+  {
+   "id": "fl-6s6h-6d9cKh-n2",
+   "equity": 0.8894315296182645,
+   "method": "exact",
+   "samples": null,
+   "halfWidth95": null
+  },
+  {
+   "id": "fl-6s6h-6d9cKh-n3",
+   "equity": 0.8433906,
+   "method": "mc",
+   "samples": 20000000,
+   "halfWidth95": 0.000159281
+  },
+  {
+   "id": "fl-6s6h-6d9cKh-n4",
+   "equity": 0.802368175,
+   "method": "mc",
+   "samples": 20000000,
+   "halfWidth95": 0.000174524
+  },
+  {
+   "id": "fl-6s6h-6d9cKh-n5",
+   "equity": 0.7654983,
+   "method": "mc",
+   "samples": 20000000,
+   "halfWidth95": 0.000185689
+  },
+  {
+   "id": "fl-9d8d-KsQh2c-n1",
+   "equity": 0.3051285285790374,
+   "method": "exact",
+   "samples": null,
+   "halfWidth95": null
+  },
+  {
+   "id": "fl-9d8d-KsQh2c-n2",
+   "equity": 0.13357917307963563,
+   "method": "exact",
+   "samples": null,
+   "halfWidth95": null
+  },
+  {
+   "id": "fl-9d8d-KsQh2c-n3",
+   "equity": 0.07534879166666666,
+   "method": "mc",
+   "samples": 20000000,
+   "halfWidth95": 0.000115683
+  },
+  {
+   "id": "fl-9d8d-KsQh2c-n4",
+   "equity": 0.04795136333333333,
+   "method": "mc",
+   "samples": 20000000,
+   "halfWidth95": 0.0000936421
+  },
+  {
+   "id": "fl-9d8d-KsQh2c-n5",
+   "equity": 0.03221299166666667,
+   "method": "mc",
+   "samples": 20000000,
+   "halfWidth95": 0.0000773832
+  },
+  {
+   "id": "fl-KhQh-JhTh2s-n1",
+   "equity": 0.7644843439015502,
+   "method": "exact",
+   "samples": null,
+   "halfWidth95": null
+  },
+  {
+   "id": "fl-KhQh-JhTh2s-n2",
+   "equity": 0.6635174495998166,
+   "method": "exact",
+   "samples": null,
+   "halfWidth95": null
+  },
+  {
+   "id": "fl-KhQh-JhTh2s-n3",
+   "equity": 0.6111970958333333,
+   "method": "mc",
+   "samples": 20000000,
+   "halfWidth95": 0.000213647
+  },
+  {
+   "id": "fl-KhQh-JhTh2s-n4",
+   "equity": 0.57743145,
+   "method": "mc",
+   "samples": 20000000,
+   "halfWidth95": 0.000216491
+  },
+  {
+   "id": "fl-KhQh-JhTh2s-n5",
+   "equity": 0.5521598208333333,
+   "method": "mc",
+   "samples": 20000000,
+   "halfWidth95": 0.000217939
+  },
+  {
+   "id": "fl-5c4c-3d2s9h-n1",
+   "equity": 0.4284309328250124,
+   "method": "exact",
+   "samples": null,
+   "halfWidth95": null
+  },
+  {
+   "id": "fl-5c4c-3d2s9h-n2",
+   "equity": 0.3690351027700166,
+   "method": "exact",
+   "samples": null,
+   "halfWidth95": null
+  },
+  {
+   "id": "fl-5c4c-3d2s9h-n3",
+   "equity": 0.3309018541666667,
+   "method": "mc",
+   "samples": 20000000,
+   "halfWidth95": 0.000206222
+  },
+  {
+   "id": "fl-5c4c-3d2s9h-n4",
+   "equity": 0.30446453500000004,
+   "method": "mc",
+   "samples": 20000000,
+   "halfWidth95": 0.000201683
+  },
+  {
+   "id": "fl-5c4c-3d2s9h-n5",
+   "equity": 0.2857798,
+   "method": "mc",
+   "samples": 20000000,
+   "halfWidth95": 0.000198004
+  },
+  {
+   "id": "tu-AsKs-Qs7s2d4h-n1",
+   "equity": 0.5941260430390866,
+   "method": "exact",
+   "samples": null,
+   "halfWidth95": null
+  },
+  {
+   "id": "tu-AsKs-Qs7s2d4h-n2",
+   "equity": 0.41448370750696334,
+   "method": "exact",
+   "samples": null,
+   "halfWidth95": null
+  },
+  {
+   "id": "tu-AsKs-Qs7s2d4h-n3",
+   "equity": 0.33255712083333333,
+   "method": "mc",
+   "samples": 20000000,
+   "halfWidth95": 0.000206482
+  },
+  {
+   "id": "tu-AsKs-Qs7s2d4h-n4",
+   "equity": 0.29272549166666667,
+   "method": "mc",
+   "samples": 20000000,
+   "halfWidth95": 0.000199418
+  },
+  {
+   "id": "tu-AsKs-Qs7s2d4h-n5",
+   "equity": 0.2707001041666667,
+   "method": "mc",
+   "samples": 20000000,
+   "halfWidth95": 0.000194732
+  },
+  {
+   "id": "tu-8h8d-Kc7h2s3d-n1",
+   "equity": 0.7390425999121651,
+   "method": "exact",
+   "samples": null,
+   "halfWidth95": null
+  },
+  {
+   "id": "tu-8h8d-Kc7h2s3d-n2",
+   "equity": 0.5458544713347544,
+   "method": "exact",
+   "samples": null,
+   "halfWidth95": null
+  },
+  {
+   "id": "tu-8h8d-Kc7h2s3d-n3",
+   "equity": 0.4038317,
+   "method": "mc",
+   "samples": 20000000,
+   "halfWidth95": 0.000215043
+  },
+  {
+   "id": "tu-8h8d-Kc7h2s3d-n4",
+   "equity": 0.300178875,
+   "method": "mc",
+   "samples": 20000000,
+   "halfWidth95": 0.000200874
+  },
+  {
+   "id": "tu-8h8d-Kc7h2s3d-n5",
+   "equity": 0.225182125,
+   "method": "mc",
+   "samples": 20000000,
+   "halfWidth95": 0.000183066
+  },
+  {
+   "id": "tu-JcTc-9c8d2h3s-n1",
+   "equity": 0.3908432147562582,
+   "method": "exact",
+   "samples": null,
+   "halfWidth95": null
+  },
+  {
+   "id": "tu-JcTc-9c8d2h3s-n2",
+   "equity": 0.2786982444211969,
+   "method": "exact",
+   "samples": null,
+   "halfWidth95": null
+  },
+  {
+   "id": "tu-JcTc-9c8d2h3s-n3",
+   "equity": 0.24768325,
+   "method": "mc",
+   "samples": 20000000,
+   "halfWidth95": 0.000189186
+  },
+  {
+   "id": "tu-JcTc-9c8d2h3s-n4",
+   "equity": 0.23170058333333335,
+   "method": "mc",
+   "samples": 20000000,
+   "halfWidth95": 0.000184914
+  },
+  {
+   "id": "tu-JcTc-9c8d2h3s-n5",
+   "equity": 0.21958942083333335,
+   "method": "mc",
+   "samples": 20000000,
+   "halfWidth95": 0.00018143
+  },
+  {
+   "id": "tu-AhQd-AdTs5c8h-n1",
+   "equity": 0.8820158102766799,
+   "method": "exact",
+   "samples": null,
+   "halfWidth95": null
+  },
+  {
+   "id": "tu-AhQd-AdTs5c8h-n2",
+   "equity": 0.7771513585467074,
+   "method": "exact",
+   "samples": null,
+   "halfWidth95": null
+  },
+  {
+   "id": "tu-AhQd-AdTs5c8h-n3",
+   "equity": 0.6841011166666667,
+   "method": "mc",
+   "samples": 20000000,
+   "halfWidth95": 0.00020374
+  },
+  {
+   "id": "tu-AhQd-AdTs5c8h-n4",
+   "equity": 0.601685725,
+   "method": "mc",
+   "samples": 20000000,
+   "halfWidth95": 0.000214555
+  },
+  {
+   "id": "tu-AhQd-AdTs5c8h-n5",
+   "equity": 0.5281146833333333,
+   "method": "mc",
+   "samples": 20000000,
+   "halfWidth95": 0.000218788
+  },
+  {
+   "id": "tu-KhQh-JhTh2s3c-n1",
+   "equity": 0.6078941589811155,
+   "method": "exact",
+   "samples": null,
+   "halfWidth95": null
+  },
+  {
+   "id": "tu-KhQh-JhTh2s3c-n2",
+   "equity": 0.4696760079975449,
+   "method": "exact",
+   "samples": null,
+   "halfWidth95": null
+  },
+  {
+   "id": "tu-KhQh-JhTh2s3c-n3",
+   "equity": 0.41514412083333335,
+   "method": "mc",
+   "samples": 20000000,
+   "halfWidth95": 0.000215956
+  },
+  {
+   "id": "tu-KhQh-JhTh2s3c-n4",
+   "equity": 0.38894239166666666,
+   "method": "mc",
+   "samples": 20000000,
+   "halfWidth95": 0.000213661
+  },
+  {
+   "id": "tu-KhQh-JhTh2s3c-n5",
+   "equity": 0.3719632875,
+   "method": "mc",
+   "samples": 20000000,
+   "halfWidth95": 0.000211828
+  },
+  {
+   "id": "tu-9d8d-KsQh2c4d-n1",
+   "equity": 0.22527448397013614,
+   "method": "exact",
+   "samples": null,
+   "halfWidth95": null
+  },
+  {
+   "id": "tu-9d8d-KsQh2c4d-n2",
+   "equity": 0.07761504495579319,
+   "method": "exact",
+   "samples": null,
+   "halfWidth95": null
+  },
+  {
+   "id": "tu-9d8d-KsQh2c4d-n3",
+   "equity": 0.03924883333333333,
+   "method": "mc",
+   "samples": 20000000,
+   "halfWidth95": 0.0000851059
+  },
+  {
+   "id": "tu-9d8d-KsQh2c4d-n4",
+   "equity": 0.023318329166666665,
+   "method": "mc",
+   "samples": 20000000,
+   "halfWidth95": 0.0000661403
+  },
+  {
+   "id": "tu-9d8d-KsQh2c4d-n5",
+   "equity": 0.014099258333333335,
+   "method": "mc",
+   "samples": 20000000,
+   "halfWidth95": 0.0000516721
+  },
+  {
+   "id": "rv-AsKs-Qs7s2d4h9c-n1",
+   "equity": 0.3924242424242424,
+   "method": "exact",
+   "samples": null,
+   "halfWidth95": null
+  },
+  {
+   "id": "rv-AsKs-Qs7s2d4h9c-n2",
+   "equity": 0.14675660257055606,
+   "method": "exact",
+   "samples": null,
+   "halfWidth95": null
+  },
+  {
+   "id": "rv-AsKs-Qs7s2d4h9c-n3",
+   "equity": 0.05194509166666667,
+   "method": "mc",
+   "samples": 20000000,
+   "halfWidth95": 0.0000972591
+  },
+  {
+   "id": "rv-AsKs-Qs7s2d4h9c-n4",
+   "equity": 0.017311083333333335,
+   "method": "mc",
+   "samples": 20000000,
+   "halfWidth95": 0.0000571625
+  },
+  {
+   "id": "rv-AsKs-Qs7s2d4h9c-n5",
+   "equity": 0.005336425,
+   "method": "mc",
+   "samples": 20000000,
+   "halfWidth95": 0.0000319304
+  },
+  {
+   "id": "rv-8h8d-Kc7h2s3d4c-n1",
+   "equity": 0.73989898989899,
+   "method": "exact",
+   "samples": null,
+   "halfWidth95": null
+  },
+  {
+   "id": "rv-8h8d-Kc7h2s3d4c-n2",
+   "equity": 0.5432486548765618,
+   "method": "exact",
+   "samples": null,
+   "halfWidth95": null
+  },
+  {
+   "id": "rv-8h8d-Kc7h2s3d4c-n3",
+   "equity": 0.3955487,
+   "method": "mc",
+   "samples": 20000000,
+   "halfWidth95": 0.0002143
+  },
+  {
+   "id": "rv-8h8d-Kc7h2s3d4c-n4",
+   "equity": 0.285286075,
+   "method": "mc",
+   "samples": 20000000,
+   "halfWidth95": 0.000197901
+  },
+  {
+   "id": "rv-8h8d-Kc7h2s3d4c-n5",
+   "equity": 0.203647375,
+   "method": "mc",
+   "samples": 20000000,
+   "halfWidth95": 0.000176495
+  },
+  {
+   "id": "rv-JcTc-9c8d2h3sQd-n1",
+   "equity": 0.9954545454545455,
+   "method": "exact",
+   "samples": null,
+   "halfWidth95": null
+  },
+  {
+   "id": "rv-JcTc-9c8d2h3sQd-n2",
+   "equity": 0.9909225141783281,
+   "method": "exact",
+   "samples": null,
+   "halfWidth95": null
+  },
+  {
+   "id": "rv-JcTc-9c8d2h3sQd-n3",
+   "equity": 0.9864155791666666,
+   "method": "mc",
+   "samples": 20000000,
+   "halfWidth95": 0.0000507331
+  },
+  {
+   "id": "rv-JcTc-9c8d2h3sQd-n4",
+   "equity": 0.9818735,
+   "method": "mc",
+   "samples": 20000000,
+   "halfWidth95": 0.000058469
+  },
+  {
+   "id": "rv-JcTc-9c8d2h3sQd-n5",
+   "equity": 0.9773943166666667,
+   "method": "mc",
+   "samples": 20000000,
+   "halfWidth95": 0.0000651456
+  },
+  {
+   "id": "rv-AhQd-AdTs5c8h3h-n1",
+   "equity": 0.8808080808080808,
+   "method": "exact",
+   "samples": null,
+   "halfWidth95": null
+  },
+  {
+   "id": "rv-AhQd-AdTs5c8h3h-n2",
+   "equity": 0.7741244113337137,
+   "method": "exact",
+   "samples": null,
+   "halfWidth95": null
+  },
+  {
+   "id": "rv-AhQd-AdTs5c8h3h-n3",
+   "equity": 0.678806675,
+   "method": "mc",
+   "samples": 20000000,
+   "halfWidth95": 0.000204643
+  },
+  {
+   "id": "rv-AhQd-AdTs5c8h3h-n4",
+   "equity": 0.59402885,
+   "method": "mc",
+   "samples": 20000000,
+   "halfWidth95": 0.000215225
+  },
+  {
+   "id": "rv-AhQd-AdTs5c8h3h-n5",
+   "equity": 0.5180512,
+   "method": "mc",
+   "samples": 20000000,
+   "halfWidth95": 0.000218992
+  },
+  {
+   "id": "rv-7h6h-Ah9h2c3hKd-n1",
+   "equity": 0.9747474747474747,
+   "method": "exact",
+   "samples": null,
+   "halfWidth95": null
+  },
+  {
+   "id": "rv-7h6h-Ah9h2c3hKd-n2",
+   "equity": 0.9498640893989732,
+   "method": "exact",
+   "samples": null,
+   "halfWidth95": null
+  },
+  {
+   "id": "rv-7h6h-Ah9h2c3hKd-n3",
+   "equity": 0.9251852,
+   "method": "mc",
+   "samples": 20000000,
+   "halfWidth95": 0.000115305
+  },
+  {
+   "id": "rv-7h6h-Ah9h2c3hKd-n4",
+   "equity": 0.901219,
+   "method": "mc",
+   "samples": 20000000,
+   "halfWidth95": 0.000130765
+  },
+  {
+   "id": "rv-7h6h-Ah9h2c3hKd-n5",
+   "equity": 0.87746565,
+   "method": "mc",
+   "samples": 20000000,
+   "halfWidth95": 0.000143709
+  },
+  {
+   "id": "rv-2c3d-AsKsQsJsTs-n1",
+   "equity": 0.5,
+   "method": "exact",
+   "samples": null,
+   "halfWidth95": null
+  },
+  {
+   "id": "rv-2c3d-AsKsQsJsTs-n2",
+   "equity": 0.3333333333333333,
+   "method": "exact",
+   "samples": null,
+   "halfWidth95": null
+  },
+  {
+   "id": "rv-2c3d-AsKsQsJsTs-n3",
+   "equity": 0.25,
+   "method": "mc",
+   "samples": 20000000,
+   "halfWidth95": 0.000189776
+  },
+  {
+   "id": "rv-2c3d-AsKsQsJsTs-n4",
+   "equity": 0.2,
+   "method": "mc",
+   "samples": 20000000,
+   "halfWidth95": 0.000175308
+  },
+  {
+   "id": "rv-2c3d-AsKsQsJsTs-n5",
+   "equity": 0.16666666666666669,
+   "method": "mc",
+   "samples": 20000000,
+   "halfWidth95": 0.000163333
+  }
+ ]
+}
