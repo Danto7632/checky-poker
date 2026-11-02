@@ -54,4 +54,16 @@ describe('getE2EHooks', () => {
     window.__CHECKY_E2E__ = { testSeed: 's', relays: null, llm: null };
     expect(getE2EHooks()).toEqual({ testSeed: 's', relays: null, llm: null });
   });
+
+  it('accepts the full-capture tap object {max?} and drops malformed ones (contract e2e_tap)', () => {
+    vi.stubEnv('VITE_E2E', 'true');
+    window.__CHECKY_E2E__ = { tap: { max: 10000 } };
+    expect(getE2EHooks()).toEqual({ tap: { max: 10000 } });
+    window.__CHECKY_E2E__ = { tap: {} };
+    expect(getE2EHooks()).toEqual({ tap: {} });
+    for (const bad of [{ max: 0 }, { max: -5 }, { max: 1.5 }, { max: '100' }, { max: 10, extra: true }, [10]]) {
+      window.__CHECKY_E2E__ = { tap: bad };
+      expect(getE2EHooks()).toEqual({});
+    }
+  });
 });

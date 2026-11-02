@@ -8,7 +8,11 @@ export interface E2EHooks {
   /** Opaque to config (config must not import ai types); Andrew's composition passes it to createMockDecider. */
   llm?: Readonly<Record<string, unknown>> | null;
   relays?: { nostr: string[]; mqtt: string[] } | null;
-  tap?: boolean;
+  /**
+   * true = the dev ring of 20 frames. {max?} = the E2E full-capture mode (contract e2e_tap, 1.0.4-p1 Q2-002):
+   * every frame net handed over, kept in a ring of `max` entries (session applies the default 10,000).
+   */
+  tap?: boolean | { max?: number };
 }
 
 function isPlainObject(v: unknown): v is Record<string, unknown> {
@@ -32,6 +36,12 @@ function sanitize(raw: unknown): E2EHooks | null {
     out.relays = { nostr: raw.relays.nostr, mqtt: raw.relays.mqtt };
   }
   if (typeof raw.tap === 'boolean') out.tap = raw.tap;
+  else if (isPlainObject(raw.tap)) {
+    // Only `max` is defined; it must be a positive integer. Any other key or value drops the whole tap entry.
+    const { max, ...rest } = raw.tap;
+    const maxOk = max === undefined || (Number.isSafeInteger(max) && (max as number) > 0);
+    if (maxOk && Object.keys(rest).length === 0) out.tap = max === undefined ? {} : { max: max as number };
+  }
   return out;
 }
 

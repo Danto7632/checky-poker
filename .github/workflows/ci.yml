@@ -1,5 +1,5 @@
 # T5.0 CI (story 0-0 AC-9). Lead-owned. Steps run in this order:
-# npm ci -> typecheck -> lint -> tooling tests -> test -> build -> scan-dist (when present) -> check-owners
+# npm ci -> typecheck -> lint -> tooling tests -> test -> build -> scan-dist (self-test, then scan) -> check-owners
 # -> legacy unchanged (since tag w5-start) -> change attribution (BATHOS-Role trailer, D-L9).
 name: ci
 
@@ -48,13 +48,10 @@ jobs:
         run: npm run build
 
       - name: Scan dist (AF-18)
-        # scan-dist.mjs is created by Andrew in R0; the lead removes this guard at the R0 integration.
+        # Required from the R0 integration on (lead review w5-r0). The self-test proves every rule still fires.
         run: |
-          if [ -f frontend/scripts/scan-dist.mjs ]; then
-            node frontend/scripts/scan-dist.mjs
-          else
-            echo "scan-dist: skipped (R0 pending)"
-          fi
+          node frontend/scripts/scan-dist.mjs --self-test
+          node frontend/scripts/scan-dist.mjs
 
       - name: Check owners
         run: npm run check:owners

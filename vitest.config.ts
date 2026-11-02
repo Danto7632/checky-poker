@@ -7,6 +7,10 @@ const frontendSrc = path.resolve(import.meta.dirname, 'frontend/src');
 
 export default defineConfig({
   test: {
+    // The on-disk transform cache keys on the importing file, not on what `import.meta.glob` matches, so a run can
+    // miss a JSON fixture added after the cache was written (the R0 oracle run saw pending=140 until the cache was
+    // cleared). Correct results beat a faster cold start: keep it off.
+    fsModuleCache: false,
     projects: [
       {
         test: {
