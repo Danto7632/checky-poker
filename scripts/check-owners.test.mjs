@@ -68,12 +68,14 @@ describe('committed ownership tables', () => {
     assert.equal(ownerOf(owners, '.agent-team/04-architecture/api-contracts.md').owner, 'frozen');
   });
 
-  test('AF-12 / D-L14: .env.example, ATTRIBUTIONS.md and README.md are Andrew-only and not frozen', () => {
+  test('AF-12 / D-L14: .env.example, ATTRIBUTIONS.md and README.md are Andrew-only and not frozen; root READMEs are lead-owned', () => {
     for (const f of ['frontend/.env.example', 'frontend/ATTRIBUTIONS.md', 'frontend/README.md']) {
       assert.equal(ownerOf(owners, f).owner, 'Andrew', f);
       assert.equal(owners.frozen.some((g) => globMatches(g, f)), false, f);
     }
-    assert.equal(ownerOf(owners, 'README.md').owner, 'frozen');
+    // D31 (2026-11-03): the root READMEs carry the region notice and are lead-owned, no longer frozen.
+    assert.equal(ownerOf(owners, 'README.md').owner, 'lead');
+    assert.equal(ownerOf(owners, 'README.ja.md').owner, 'lead');
     assert.equal(ownerOf(owners, 'package-lock.json').owner, 'Andrew');
     assert.equal(ownerOf(owners, 'frontend/package.json').owner, 'Andrew');
     assert.equal(ownerOf(owners, 'packages/engine/package.json').owner, 'lead');

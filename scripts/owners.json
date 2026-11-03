@@ -50,7 +50,9 @@
     "packages/analysis/package.json",
     "packages/analysis/tsconfig.json",
     "frontend/tsconfig.json",
-    "frontend/src/config/**"
+    "frontend/src/config/**",
+    "README.md",
+    "README.ja.md"
   ],
   "frozen": [
     "backend/**",
@@ -59,7 +61,6 @@
     "assets/**",
     "modules/**",
     "docs/**",
-    "README.md",
     "LICENSE",
     ".gitignore",
     ".agent-team/**",
